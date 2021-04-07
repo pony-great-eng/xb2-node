@@ -498,7 +498,7 @@
         "signature": "462203b87bbbdef909957cbcb212e0b2d5c4353a9ab82d83f6321fdd06027f99"
       },
       "../src/user/user.controller.ts": {
-        "version": "668e03c55f86c5a357cbecf6c4d949632e6b407c3acc32c0c85af037ad44d931",
+        "version": "08f655b1d4db43ef3141088ccf7aec90c1613132a657a25a0237f459b810ca4d",
         "signature": "832202dc731f76b8f70e7f74fc53f2238a533d2efcfe96537016ab5d7cecb29f"
       },
       "../node_modules/@types/bcrypt/index.d.ts": {
@@ -1799,7 +1799,7 @@
       "../src/app/app.middleware.ts",
       "../src/post/post.router.ts",
       "../src/user/user.model.ts",
-      "../src/user/user.controller.ts",
+      "../src/user/user.service.ts",
       "../node_modules/@types/bcrypt/index.d.ts",
       "../src/user/user.middleware.ts",
       "../src/user/user.router.ts",
@@ -1811,7 +1811,7 @@
       "../src/playground.ts",
       "../src/auth/auth.service.ts",
       "../src/user/user.test.ts",
-      "../src/user/user.service.ts"
+      "../src/user/user.controller.ts"
     ]
   },
   "version": "3.8.3"

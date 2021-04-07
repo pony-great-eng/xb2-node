@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import {UserModel} from './user.model';
+import { UserModel } from './user.model';
 import _ from 'lodash';
 import * as userService from './user.service';
 
