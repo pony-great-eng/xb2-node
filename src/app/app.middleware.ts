@@ -56,6 +56,10 @@ export const defaultErrorHandler = (
                 statusCode =401;
                 message = '请先登录';
                  break;
+            case 'USER_DOES_NOT_OWN_RESOURCE':
+                    statusCode =403;
+                    message = '你没有文件处理权限';
+                     break;     
         default:
             statusCode = 500;
             message='服务暂时出点问题~~';
