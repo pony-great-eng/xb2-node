@@ -1,5 +1,5 @@
 export class FileModel {
-  id?: number;
+  id?: string;
   originalname: string;
   mimetype: string;
   filename: string;

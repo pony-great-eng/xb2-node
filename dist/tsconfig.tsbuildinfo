@@ -134,8 +134,8 @@
         "signature": "f852baed7c0a5efc697045443f02a2950920e41f6517a42cb3b834428913919f"
       },
       "../types/express.d.ts": {
-        "version": "b8f2f9821d349045bfc4eaf4bbfd120a350a1c10e28d5624d170067b8b05eda6",
-        "signature": "b8f2f9821d349045bfc4eaf4bbfd120a350a1c10e28d5624d170067b8b05eda6"
+        "version": "1d03fea6d446470000f03f09eea03271568493ad0c5d7c329bffed723fcd9adf",
+        "signature": "1d03fea6d446470000f03f09eea03271568493ad0c5d7c329bffed723fcd9adf"
       },
       "../node_modules/@types/node/globals.d.ts": {
         "version": "25b4a0c4fab47c373ee49df4c239826ee3430019fc0c1b5e59edc3e398b7468d",
@@ -490,7 +490,7 @@
         "signature": "d9f3bafc390e2e2ea9cc76fa2a48b184d56ea3496e6a8a08813825fbfa552d5e"
       },
       "../src/app/app.middleware.ts": {
-        "version": "6cccc3acb2962ee2f677f10c4025bcd97d503cc560c62ed6016549f6cc09dfe7",
+        "version": "a5c3dbe4d169c773c41f722d5039410bf29b0cde3907382619a7e136648c6e38",
         "signature": "f89af0738b9101b999ff997089a699035c6c1f603521d22a437d586e8c701e82"
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -541,28 +541,168 @@
         "version": "71391c912aa12cb64ecd6b70994556e4b87d2529c10ea78f40a0cb61c7d7b97e",
         "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
       },
+      "../node_modules/@jimp/core/types/jimp.d.ts": {
+        "version": "11e31384d7e5e16179c37c0382c80f3736fb7c51c1a258283925b42d5f58f24c",
+        "signature": "11e31384d7e5e16179c37c0382c80f3736fb7c51c1a258283925b42d5f58f24c"
+      },
+      "../node_modules/@jimp/core/types/etc.d.ts": {
+        "version": "81cba1ca948d7a158b75d9bf342955793576687c61930f9d87a331a968c820bc",
+        "signature": "81cba1ca948d7a158b75d9bf342955793576687c61930f9d87a331a968c820bc"
+      },
+      "../node_modules/@jimp/core/types/functions.d.ts": {
+        "version": "ac26e1df718b688cb69170ef4a10c4615796af3042dc4a2d533b295095052142",
+        "signature": "ac26e1df718b688cb69170ef4a10c4615796af3042dc4a2d533b295095052142"
+      },
+      "../node_modules/@jimp/core/types/utils.d.ts": {
+        "version": "e5435a253e31a74a5ba34cddd2983c2b6e7798be830cf9896656f3dd02d513a3",
+        "signature": "e5435a253e31a74a5ba34cddd2983c2b6e7798be830cf9896656f3dd02d513a3"
+      },
+      "../node_modules/@jimp/core/types/plugins.d.ts": {
+        "version": "c58c3df82dbbac85d6cbbfb6ece2a425c125db04ef0ceb3f034d33f6258a595b",
+        "signature": "c58c3df82dbbac85d6cbbfb6ece2a425c125db04ef0ceb3f034d33f6258a595b"
+      },
+      "../node_modules/@jimp/core/types/index.d.ts": {
+        "version": "107c1b5064b01db7a55616d09c5b6c278cd402c6afb82fcbf95fe28b48920d22",
+        "signature": "107c1b5064b01db7a55616d09c5b6c278cd402c6afb82fcbf95fe28b48920d22"
+      },
+      "../node_modules/@jimp/jpeg/index.d.ts": {
+        "version": "616293f491f8f8038be5cc29418493ba333e6e98820b0e85a6bf02a333667eb8",
+        "signature": "616293f491f8f8038be5cc29418493ba333e6e98820b0e85a6bf02a333667eb8"
+      },
+      "../node_modules/@jimp/png/index.d.ts": {
+        "version": "e32df6324918608e0d404ed125e7f2429a21315830f81d15a22958e53c3bbe97",
+        "signature": "e32df6324918608e0d404ed125e7f2429a21315830f81d15a22958e53c3bbe97"
+      },
+      "../node_modules/@jimp/bmp/index.d.ts": {
+        "version": "0f6dc41bab0e1f96f70f46d797644d0d32a491e34a390e3411f61ecbbef3159b",
+        "signature": "0f6dc41bab0e1f96f70f46d797644d0d32a491e34a390e3411f61ecbbef3159b"
+      },
+      "../node_modules/@jimp/tiff/index.d.ts": {
+        "version": "07d406e2b9185f08617234e5d1307789c202e99159f3aa1a13670df39589a2fe",
+        "signature": "07d406e2b9185f08617234e5d1307789c202e99159f3aa1a13670df39589a2fe"
+      },
+      "../node_modules/@jimp/gif/index.d.ts": {
+        "version": "6f690985c908fd2d566f694394016be3e757fb7094e1e3d8be8545813af0453f",
+        "signature": "6f690985c908fd2d566f694394016be3e757fb7094e1e3d8be8545813af0453f"
+      },
+      "../node_modules/@jimp/types/index.d.ts": {
+        "version": "cf34998d6c868eb5d814521523731767ceed7d00bddaf40f82f89ef861c411bf",
+        "signature": "cf34998d6c868eb5d814521523731767ceed7d00bddaf40f82f89ef861c411bf"
+      },
+      "../node_modules/@jimp/plugin-blit/index.d.ts": {
+        "version": "0298fb593e400ab7d61366fad5e84399f224bee4bb1cd3dc0cfaae0e2929c3d7",
+        "signature": "0298fb593e400ab7d61366fad5e84399f224bee4bb1cd3dc0cfaae0e2929c3d7"
+      },
+      "../node_modules/@jimp/plugin-blur/index.d.ts": {
+        "version": "6adab4f1c0c67ce871828183137449e443e17a4142529a32b22f189f3c737af6",
+        "signature": "6adab4f1c0c67ce871828183137449e443e17a4142529a32b22f189f3c737af6"
+      },
+      "../node_modules/@jimp/plugin-circle/index.d.ts": {
+        "version": "1be04a4005e2b7f5b2688e2d4de704ae68c9d95ebacc0367b8b5730bd8c50fb1",
+        "signature": "1be04a4005e2b7f5b2688e2d4de704ae68c9d95ebacc0367b8b5730bd8c50fb1"
+      },
+      "../node_modules/@jimp/plugin-color/index.d.ts": {
+        "version": "83c2f5af37e6d351b3d2f6824c8c0fe85361e2640035bef7c9e56a5dfeedcd35",
+        "signature": "83c2f5af37e6d351b3d2f6824c8c0fe85361e2640035bef7c9e56a5dfeedcd35"
+      },
+      "../node_modules/@jimp/plugin-contain/index.d.ts": {
+        "version": "101b82e4cc6bc4230c4c764ce8f28d0841a665c38f7c1a40981b2727ebc1bf3c",
+        "signature": "101b82e4cc6bc4230c4c764ce8f28d0841a665c38f7c1a40981b2727ebc1bf3c"
+      },
+      "../node_modules/@jimp/plugin-cover/index.d.ts": {
+        "version": "9c7efe7cc60262099e1f7bb4fbc6d0014df273c9049e744ffb484e6761a7e2ad",
+        "signature": "9c7efe7cc60262099e1f7bb4fbc6d0014df273c9049e744ffb484e6761a7e2ad"
+      },
+      "../node_modules/@jimp/plugin-crop/index.d.ts": {
+        "version": "c6162dc88ce4d91ebfceac7f709097485675c90ee4c816931d26754a54e19164",
+        "signature": "c6162dc88ce4d91ebfceac7f709097485675c90ee4c816931d26754a54e19164"
+      },
+      "../node_modules/@jimp/plugin-displace/index.d.ts": {
+        "version": "0634e12db1decbf3edc562dcf8e2b7f4affe4919a21005d6bea90aa9532612aa",
+        "signature": "0634e12db1decbf3edc562dcf8e2b7f4affe4919a21005d6bea90aa9532612aa"
+      },
+      "../node_modules/@jimp/plugin-dither/index.d.ts": {
+        "version": "3c464b3eecdf5cd990dcd882a04608f4ae29b99fc24ffbff970e340ac5d4eef1",
+        "signature": "3c464b3eecdf5cd990dcd882a04608f4ae29b99fc24ffbff970e340ac5d4eef1"
+      },
+      "../node_modules/@jimp/plugin-fisheye/index.d.ts": {
+        "version": "6daca098a3cf1585848a1464458143442ef8042470cb975ef7ab360afa7651b6",
+        "signature": "6daca098a3cf1585848a1464458143442ef8042470cb975ef7ab360afa7651b6"
+      },
+      "../node_modules/@jimp/plugin-flip/index.d.ts": {
+        "version": "c7b5b995bd17d27758d13f8d200d9748d8fcb5491dd5593a4e840e5abdd4e0c3",
+        "signature": "c7b5b995bd17d27758d13f8d200d9748d8fcb5491dd5593a4e840e5abdd4e0c3"
+      },
+      "../node_modules/@jimp/plugin-gaussian/index.d.ts": {
+        "version": "a8d4833b2b4896c44af60626a844a086c8120807cf2e6a39d2dc80ab5d1af972",
+        "signature": "a8d4833b2b4896c44af60626a844a086c8120807cf2e6a39d2dc80ab5d1af972"
+      },
+      "../node_modules/@jimp/plugin-invert/index.d.ts": {
+        "version": "40156b6e614fe0b0aa4af9c21a0157eb84758e572ae700788ff9d436fae78c2b",
+        "signature": "40156b6e614fe0b0aa4af9c21a0157eb84758e572ae700788ff9d436fae78c2b"
+      },
+      "../node_modules/@jimp/plugin-mask/index.d.ts": {
+        "version": "f0867230a5838be63be92c9480a65f1d075eec34683212e080002760a6174c83",
+        "signature": "f0867230a5838be63be92c9480a65f1d075eec34683212e080002760a6174c83"
+      },
+      "../node_modules/@jimp/plugin-normalize/index.d.ts": {
+        "version": "098d6936c459f18218ad71cde5aa25562a74461701c3551c544aecfd2c6226e7",
+        "signature": "098d6936c459f18218ad71cde5aa25562a74461701c3551c544aecfd2c6226e7"
+      },
+      "../node_modules/@jimp/plugin-print/index.d.ts": {
+        "version": "405dc951dda9d1ba88aa742a04541a749973bafa7873f1b49c3065a6dc05e170",
+        "signature": "405dc951dda9d1ba88aa742a04541a749973bafa7873f1b49c3065a6dc05e170"
+      },
+      "../node_modules/@jimp/plugin-resize/index.d.ts": {
+        "version": "fc9091f36b50dfc7e47b6183bd7b4294a20878e1d826f38f44e7053d403358ed",
+        "signature": "fc9091f36b50dfc7e47b6183bd7b4294a20878e1d826f38f44e7053d403358ed"
+      },
+      "../node_modules/@jimp/plugin-rotate/index.d.ts": {
+        "version": "4c846ba0a980408c10c12ed8358bcabdb8ca97aee0bb8869becaea412d6e89bb",
+        "signature": "4c846ba0a980408c10c12ed8358bcabdb8ca97aee0bb8869becaea412d6e89bb"
+      },
+      "../node_modules/@jimp/plugin-scale/index.d.ts": {
+        "version": "ed995ca53b2c1b6bc1555bbee8bc12ea290b2117d89dc1c27c1333f8c3a97d35",
+        "signature": "ed995ca53b2c1b6bc1555bbee8bc12ea290b2117d89dc1c27c1333f8c3a97d35"
+      },
+      "../node_modules/@jimp/plugin-shadow/index.d.ts": {
+        "version": "26a8c45aaa7c9b7cb356b565f880295b5a94b14f0c348b41dd776cbeab9f06e1",
+        "signature": "26a8c45aaa7c9b7cb356b565f880295b5a94b14f0c348b41dd776cbeab9f06e1"
+      },
+      "../node_modules/@jimp/plugin-threshold/index.d.ts": {
+        "version": "a18ab8a8420f372aab81c57e9eb3b0c29a8a7760eab40328765d65a3d2dff5ac",
+        "signature": "a18ab8a8420f372aab81c57e9eb3b0c29a8a7760eab40328765d65a3d2dff5ac"
+      },
+      "../node_modules/@jimp/plugins/index.d.ts": {
+        "version": "15465dcb7504e00902baf1c1bf1195c35a20612a300fcd8482836c9319af2d1b",
+        "signature": "15465dcb7504e00902baf1c1bf1195c35a20612a300fcd8482836c9319af2d1b"
+      },
+      "../node_modules/jimp/types/ts3.1/index.d.ts": {
+        "version": "762539fa7b805a2ca94de8b9587db0dfe12ae440848678d028707b70f31acced",
+        "signature": "762539fa7b805a2ca94de8b9587db0dfe12ae440848678d028707b70f31acced"
+      },
       "../src/file/file.model.ts": {
-        "version": "a50021ba26c216ca0e814c28e962b9dce240c6907a5ddaafda04c1bd9c6f31ea",
-        "signature": "c30c762c7307aee4a500d05262e369cdc46dc6f0f691235ba15286e172f18e9b"
+        "version": "8995549d2e5a27fe920db5e9ed8f28d548cd8ee5243bf576e43f5adcea807614",
+        "signature": "b680b7d8e3cf044164106c2fb7b78f03adbfdc1e0600037b3b7ae36b633407f2"
       },
       "../src/file/file.service.ts": {
-        "version": "8178ab45e8891b1aafe3c3a4f8a376a6e1cc754f5aa7e84d1b5b0f0fa0c1145d",
-        "signature": "28ebfc04b8d10ed9808bb4340a061da679fbb2222d09a6dca44526b114ad072e"
+        "version": "a6481a485f8b40e5f9d31d8efe18c4f1da09cfeb0009c8b75a1523d1996c6170",
+        "signature": "38f2788026a5867cbdf7631499f2fbd469b9d12dfd59a8b25bf3a8692c0847d4"
       },
       "../src/file/file.controller.ts": {
-        "version": "05983ec6cac4e2b20ec1453eee094874e4cae85e259407ec0641cfe0d9a592fb",
-        "signature": "0abab9d7469db2c96eaa5c810d183f45ee3e323330a5c2ced4e52d15b291e4c6"
+        "version": "eb92948a8b66105d632f4c88a1ab72e061099c1e27fe1f7ba274ae14553afa7b",
+        "signature": "4f01a1d9e99c9f87f01a7697374a62172cfa558772203ecbd3733b783b56408a"
       },
       "../node_modules/@types/multer/index.d.ts": {
         "version": "054c16c6ed7d4284d0346f87d0572cd5aad26fea25648fdd821002eca7b7a404",
         "signature": "054c16c6ed7d4284d0346f87d0572cd5aad26fea25648fdd821002eca7b7a404"
       },
       "../src/file/file.middleware.ts": {
-        "version": "1e0b5a396871d6e27b10e9dc2799a2843c55a3f8caa3eefd5f1478b75bd04f98",
-        "signature": "e32e1cf91e5855519769eb055aea679ec99b3529fd9b9d74a56514078be4df7c"
+        "version": "92366b3d7ba5c9d56e5c0bccd0ad0d41c687b678cdc53a9ce2e4985366f50da8",
+        "signature": "02e20132da3f5692058fc20210b64914cfbf955635b0cc4262d2e6e775c3fcc3"
       },
       "../src/file/file.router.ts": {
-        "version": "732228fe2e674a2710c38badd5e3e26faac569ccb522df5af6e205e81a26c8c4",
+        "version": "0041f745f0eb29f9110226a0c0ebdf33fcd9d91d82fb89fe7b628c2cf0085471",
         "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
       },
       "../src/app/index.ts": {
@@ -1169,9 +1309,146 @@
         "../src/auth/auth.controller.ts",
         "../src/auth/auth.middleware.ts"
       ],
+      "../node_modules/@jimp/core/types/jimp.d.ts": [
+        "../node_modules/@jimp/core/types/etc.d.ts"
+      ],
+      "../node_modules/@jimp/core/types/etc.d.ts": [
+        "../node_modules/@jimp/core/types/jimp.d.ts"
+      ],
+      "../node_modules/@jimp/core/types/functions.d.ts": [
+        "../node_modules/@jimp/core/types/jimp.d.ts"
+      ],
+      "../node_modules/@jimp/core/types/utils.d.ts": [
+        "../node_modules/@jimp/core/types/plugins.d.ts"
+      ],
+      "../node_modules/@jimp/core/types/plugins.d.ts": [
+        "../node_modules/@jimp/core/types/etc.d.ts",
+        "../node_modules/@jimp/core/types/utils.d.ts"
+      ],
+      "../node_modules/@jimp/core/types/index.d.ts": [
+        "../node_modules/@jimp/core/types/etc.d.ts",
+        "../node_modules/@jimp/core/types/functions.d.ts",
+        "../node_modules/@jimp/core/types/plugins.d.ts",
+        "../node_modules/@jimp/core/types/utils.d.ts",
+        "../node_modules/@jimp/core/types/jimp.d.ts"
+      ],
+      "../node_modules/@jimp/jpeg/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/png/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/bmp/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/tiff/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/gif/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/types/index.d.ts": [
+        "../node_modules/@jimp/jpeg/index.d.ts",
+        "../node_modules/@jimp/png/index.d.ts",
+        "../node_modules/@jimp/bmp/index.d.ts",
+        "../node_modules/@jimp/tiff/index.d.ts",
+        "../node_modules/@jimp/gif/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-blit/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-blur/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-circle/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-color/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-contain/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-cover/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-crop/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-displace/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-dither/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-fisheye/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-flip/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-gaussian/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-invert/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-mask/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-normalize/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-print/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-resize/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-rotate/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-scale/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-shadow/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-threshold/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugins/index.d.ts": [
+        "../node_modules/@jimp/plugin-blit/index.d.ts",
+        "../node_modules/@jimp/plugin-blur/index.d.ts",
+        "../node_modules/@jimp/plugin-circle/index.d.ts",
+        "../node_modules/@jimp/plugin-color/index.d.ts",
+        "../node_modules/@jimp/plugin-contain/index.d.ts",
+        "../node_modules/@jimp/plugin-cover/index.d.ts",
+        "../node_modules/@jimp/plugin-crop/index.d.ts",
+        "../node_modules/@jimp/plugin-displace/index.d.ts",
+        "../node_modules/@jimp/plugin-dither/index.d.ts",
+        "../node_modules/@jimp/plugin-fisheye/index.d.ts",
+        "../node_modules/@jimp/plugin-flip/index.d.ts",
+        "../node_modules/@jimp/plugin-gaussian/index.d.ts",
+        "../node_modules/@jimp/plugin-invert/index.d.ts",
+        "../node_modules/@jimp/plugin-mask/index.d.ts",
+        "../node_modules/@jimp/plugin-normalize/index.d.ts",
+        "../node_modules/@jimp/plugin-print/index.d.ts",
+        "../node_modules/@jimp/plugin-resize/index.d.ts",
+        "../node_modules/@jimp/plugin-rotate/index.d.ts",
+        "../node_modules/@jimp/plugin-scale/index.d.ts",
+        "../node_modules/@jimp/plugin-shadow/index.d.ts",
+        "../node_modules/@jimp/plugin-threshold/index.d.ts"
+      ],
+      "../node_modules/jimp/types/ts3.1/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts",
+        "../node_modules/@jimp/types/index.d.ts",
+        "../node_modules/@jimp/plugins/index.d.ts"
+      ],
       "../src/file/file.service.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/path.d.ts",
+        "../node_modules/jimp/types/ts3.1/index.d.ts",
         "../src/app/database/mysql.ts",
         "../src/file/file.model.ts"
       ],
@@ -1187,7 +1464,9 @@
       ],
       "../src/file/file.middleware.ts": [
         "../node_modules/@types/express/index.d.ts",
-        "../node_modules/@types/multer/index.d.ts"
+        "../node_modules/@types/multer/index.d.ts",
+        "../node_modules/jimp/types/ts3.1/index.d.ts",
+        "../src/file/file.service.ts"
       ],
       "../src/file/file.router.ts": [
         "../node_modules/@types/express/index.d.ts",
@@ -1761,11 +2040,148 @@
       "../src/auth/auth.router.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts"
       ],
+      "../node_modules/@jimp/core/types/jimp.d.ts": [
+        "../node_modules/@jimp/core/types/etc.d.ts"
+      ],
+      "../node_modules/@jimp/core/types/etc.d.ts": [
+        "../node_modules/@jimp/core/types/jimp.d.ts"
+      ],
+      "../node_modules/@jimp/core/types/functions.d.ts": [
+        "../node_modules/@jimp/core/types/jimp.d.ts"
+      ],
+      "../node_modules/@jimp/core/types/utils.d.ts": [
+        "../node_modules/@jimp/core/types/plugins.d.ts"
+      ],
+      "../node_modules/@jimp/core/types/plugins.d.ts": [
+        "../node_modules/@jimp/core/types/etc.d.ts",
+        "../node_modules/@jimp/core/types/utils.d.ts"
+      ],
+      "../node_modules/@jimp/core/types/index.d.ts": [
+        "../node_modules/@jimp/core/types/etc.d.ts",
+        "../node_modules/@jimp/core/types/functions.d.ts",
+        "../node_modules/@jimp/core/types/plugins.d.ts",
+        "../node_modules/@jimp/core/types/utils.d.ts",
+        "../node_modules/@jimp/core/types/jimp.d.ts"
+      ],
+      "../node_modules/@jimp/jpeg/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/png/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/bmp/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/tiff/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/gif/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/types/index.d.ts": [
+        "../node_modules/@jimp/jpeg/index.d.ts",
+        "../node_modules/@jimp/png/index.d.ts",
+        "../node_modules/@jimp/bmp/index.d.ts",
+        "../node_modules/@jimp/tiff/index.d.ts",
+        "../node_modules/@jimp/gif/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-blit/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-blur/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-circle/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-color/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-contain/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-cover/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-crop/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-displace/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-dither/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-fisheye/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-flip/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-gaussian/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-invert/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-mask/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-normalize/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-print/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-resize/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-rotate/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-scale/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-shadow/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugin-threshold/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts"
+      ],
+      "../node_modules/@jimp/plugins/index.d.ts": [
+        "../node_modules/@jimp/plugin-blit/index.d.ts",
+        "../node_modules/@jimp/plugin-blur/index.d.ts",
+        "../node_modules/@jimp/plugin-circle/index.d.ts",
+        "../node_modules/@jimp/plugin-color/index.d.ts",
+        "../node_modules/@jimp/plugin-contain/index.d.ts",
+        "../node_modules/@jimp/plugin-cover/index.d.ts",
+        "../node_modules/@jimp/plugin-crop/index.d.ts",
+        "../node_modules/@jimp/plugin-displace/index.d.ts",
+        "../node_modules/@jimp/plugin-dither/index.d.ts",
+        "../node_modules/@jimp/plugin-fisheye/index.d.ts",
+        "../node_modules/@jimp/plugin-flip/index.d.ts",
+        "../node_modules/@jimp/plugin-gaussian/index.d.ts",
+        "../node_modules/@jimp/plugin-invert/index.d.ts",
+        "../node_modules/@jimp/plugin-mask/index.d.ts",
+        "../node_modules/@jimp/plugin-normalize/index.d.ts",
+        "../node_modules/@jimp/plugin-print/index.d.ts",
+        "../node_modules/@jimp/plugin-resize/index.d.ts",
+        "../node_modules/@jimp/plugin-rotate/index.d.ts",
+        "../node_modules/@jimp/plugin-scale/index.d.ts",
+        "../node_modules/@jimp/plugin-shadow/index.d.ts",
+        "../node_modules/@jimp/plugin-threshold/index.d.ts"
+      ],
+      "../node_modules/jimp/types/ts3.1/index.d.ts": [
+        "../node_modules/@jimp/core/types/index.d.ts",
+        "../node_modules/@jimp/types/index.d.ts",
+        "../node_modules/@jimp/plugins/index.d.ts"
+      ],
       "../src/file/file.service.ts": [
         "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
         "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
         "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts",
-        "../src/file/file.model.ts"
+        "../src/file/file.model.ts",
+        "../node_modules/jimp/types/ts3.1/index.d.ts"
       ],
       "../src/file/file.controller.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts",
@@ -1923,6 +2339,41 @@
       "../src/user/user.router.ts",
       "../src/auth/auth.controller.ts",
       "../src/auth/auth.router.ts",
+      "../node_modules/@jimp/core/types/jimp.d.ts",
+      "../node_modules/@jimp/core/types/etc.d.ts",
+      "../node_modules/@jimp/core/types/functions.d.ts",
+      "../node_modules/@jimp/core/types/utils.d.ts",
+      "../node_modules/@jimp/core/types/plugins.d.ts",
+      "../node_modules/@jimp/core/types/index.d.ts",
+      "../node_modules/@jimp/jpeg/index.d.ts",
+      "../node_modules/@jimp/png/index.d.ts",
+      "../node_modules/@jimp/bmp/index.d.ts",
+      "../node_modules/@jimp/tiff/index.d.ts",
+      "../node_modules/@jimp/gif/index.d.ts",
+      "../node_modules/@jimp/types/index.d.ts",
+      "../node_modules/@jimp/plugin-blit/index.d.ts",
+      "../node_modules/@jimp/plugin-blur/index.d.ts",
+      "../node_modules/@jimp/plugin-circle/index.d.ts",
+      "../node_modules/@jimp/plugin-color/index.d.ts",
+      "../node_modules/@jimp/plugin-contain/index.d.ts",
+      "../node_modules/@jimp/plugin-cover/index.d.ts",
+      "../node_modules/@jimp/plugin-crop/index.d.ts",
+      "../node_modules/@jimp/plugin-displace/index.d.ts",
+      "../node_modules/@jimp/plugin-dither/index.d.ts",
+      "../node_modules/@jimp/plugin-fisheye/index.d.ts",
+      "../node_modules/@jimp/plugin-flip/index.d.ts",
+      "../node_modules/@jimp/plugin-gaussian/index.d.ts",
+      "../node_modules/@jimp/plugin-invert/index.d.ts",
+      "../node_modules/@jimp/plugin-mask/index.d.ts",
+      "../node_modules/@jimp/plugin-normalize/index.d.ts",
+      "../node_modules/@jimp/plugin-print/index.d.ts",
+      "../node_modules/@jimp/plugin-resize/index.d.ts",
+      "../node_modules/@jimp/plugin-rotate/index.d.ts",
+      "../node_modules/@jimp/plugin-scale/index.d.ts",
+      "../node_modules/@jimp/plugin-shadow/index.d.ts",
+      "../node_modules/@jimp/plugin-threshold/index.d.ts",
+      "../node_modules/@jimp/plugins/index.d.ts",
+      "../node_modules/jimp/types/ts3.1/index.d.ts",
       "../src/file/file.model.ts",
       "../src/file/file.service.ts",
       "../node_modules/@types/multer/index.d.ts",

@@ -60,6 +60,10 @@ export const defaultErrorHandler = (
       statusCode = 403;
       message = '你没有文件处理权限';
       break;
+      case 'FILE_NOT_FOUND':
+        statusCode = 404;
+        message = '文件不存在';
+        break;
     default:
       statusCode = 500;
       message = '服务暂时出点问题~~';
