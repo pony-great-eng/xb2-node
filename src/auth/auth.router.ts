@@ -1,6 +1,6 @@
 import express from 'express';
 import * as authController from './auth.controller';
-import {validateLoginData, authGuard} from './auth.middleware';
+import { validateLoginData, authGuard } from './auth.middleware';
 
 const router = express.Router();
 

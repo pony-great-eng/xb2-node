@@ -1,6 +1,6 @@
 import app from './app';
-import {APP_PORT} from './app/app.config';
-import {connection} from './app/database/mysql';
+import { APP_PORT } from './app/app.config';
+import { connection } from './app/database/mysql';
 
 app.listen(APP_PORT, () => {
   console.log('服务启动啦啦啦！');
@@ -16,4 +16,4 @@ connection.connect(error => {
   }
 
   console.log('成功连接数据服务');
-})
+});

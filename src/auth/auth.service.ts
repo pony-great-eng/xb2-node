@@ -23,7 +23,7 @@ export const signToken = (options: SignTokenOptions) => {
 /**
  * 检查用户是否拥有指定资源
  */
- interface PossessOptions {
+interface PossessOptions {
   resourceId: number;
   resourceType: string;
   userId: number;
