@@ -60,9 +60,17 @@ export const defaultErrorHandler = (
       statusCode = 403;
       message = '你没有文件处理权限';
       break;
-      case 'FILE_NOT_FOUND':
+    case 'FILE_NOT_FOUND':
         statusCode = 404;
         message = '文件不存在';
+        break;
+    case 'TAG_ALREADY_EXISTS':
+      statusCode = 400;
+      message = '标签已存在';
+      break;
+    case 'POST_ALREADY_HAS_THIS_TAG':
+        statusCode = 400;
+        message = '内容已经有这个标签了';
         break;
     default:
       statusCode = 500;
