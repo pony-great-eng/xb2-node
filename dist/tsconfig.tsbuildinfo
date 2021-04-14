@@ -498,7 +498,7 @@
         "signature": "ad6779419f8e627c85059d4dc7ebaa11acdf879c1abd081ab9a70fa8d3029d6a"
       },
       "../src/app/app.middleware.ts": {
-        "version": "9377ef4c420ff61452ab4503b90693028dee4d6867d44f561c61706878c9e068",
+        "version": "ff813e2352c24ae797d18dd6cb7a19aaab2a8a70c57808aea43c24417fd20bc0",
         "signature": "f89af0738b9101b999ff997089a699035c6c1f603521d22a437d586e8c701e82"
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -721,8 +721,28 @@
         "version": "45ac0ecb93e3e1e7bd5659b016d4e365f0f620fe8076ce9caaa40d2197d703fc",
         "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
       },
+      "../src/comment/comment.model.ts": {
+        "version": "8b2b7be111d7f0bc152cd20f232756fe524bacc60e83f98f09ab66f42b70dad6",
+        "signature": "a710a6e14e50680e5b5d0de7865ac67151aee47ed36823fc6d73ec06330aeb51"
+      },
+      "../src/comment/comment.provider.ts": {
+        "version": "7ce9c7a8bade5e957d4da3095c405373bb5b4c3ca088052321476b9331b36a79",
+        "signature": "0c6ebd94e44df0e35f7eb1f70e3cd4213a618bba198302a7ac3f1f56c7efa363"
+      },
+      "../src/comment/comment.service.ts": {
+        "version": "57ae38d675780446e6bc44317e4ca34b4b153050e6ac94b3054889c7283a7b0b",
+        "signature": "70a68786325593e523ca65f28dc9ac0a7544e264eba094c6a2f1d0fa950b666e"
+      },
+      "../src/comment/comment.controller.ts": {
+        "version": "1c1b1985b38e161aeec3063f1db6b4f866534404c95092305f25c8bfd0d53caa",
+        "signature": "bc18dbf4702dfb31798f5ce9d4fbec3d49a8becf649be14431c1188c701d7643"
+      },
+      "../src/comment/comment.router.ts": {
+        "version": "bd3af4095a3aec873a5b85044937af63340bb3e30bbaaeafa8134f8fc3886526",
+        "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
+      },
       "../src/app/index.ts": {
-        "version": "fb6e420a5eea2de7f44d719f64cafff9106c46714b9d8dbc92537a54ff94ee98",
+        "version": "c1eaa37ad452b2be0918ad94272299e2c88e97b2bf281677409a45ae48448075",
         "signature": "629a4ade941bd431c195407a5afd3602c6461fdcc0f65735b7e4a68f8d5d3d51"
       },
       "../src/main.ts": {
@@ -732,6 +752,10 @@
       "../src/playground.ts": {
         "version": "a8d29a5f4739a0cc2bf8fe941190ef1e3e5026cafc96f9106749fb15673ae435",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "../src/comment/comment.middleware.ts": {
+        "version": "e7b8f28ed58bd1d2a6395e6daea1d15ae712c7c22fe229b41ae8ee8f14db1aee",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "../src/tag/tag.middleware.ts": {
         "version": "4ce54783bc730f79f079344b7f237cbc0a8fae4e16d21abaf445aaae0bea100f",
@@ -1509,6 +1533,20 @@
         "../src/tag/tag.controller.ts",
         "../src/auth/auth.middleware.ts"
       ],
+      "../src/comment/comment.service.ts": [
+        "../src/app/database/mysql.ts",
+        "../src/comment/comment.model.ts",
+        "../src/comment/comment.provider.ts"
+      ],
+      "../src/comment/comment.controller.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../src/comment/comment.service.ts"
+      ],
+      "../src/comment/comment.router.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../src/comment/comment.controller.ts",
+        "../src/auth/auth.middleware.ts"
+      ],
       "../src/app/index.ts": [
         "../node_modules/@types/express/index.d.ts",
         "../src/post/post.router.ts",
@@ -1516,12 +1554,16 @@
         "../src/auth/auth.router.ts",
         "../src/file/file.router.ts",
         "../src/tag/tag.router.ts",
+        "../src/comment/comment.router.ts",
         "../src/app/app.middleware.ts"
       ],
       "../src/main.ts": [
         "../src/app/index.ts",
         "../src/app/app.config.ts",
         "../src/app/database/mysql.ts"
+      ],
+      "../src/comment/comment.middleware.ts": [
+        "../node_modules/@types/express/index.d.ts"
       ],
       "../src/tag/tag.middleware.ts": [
         "../node_modules/@types/express/index.d.ts"
@@ -2249,6 +2291,20 @@
       "../src/tag/tag.router.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts"
       ],
+      "../src/comment/comment.service.ts": [
+        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts",
+        "../src/comment/comment.model.ts"
+      ],
+      "../src/comment/comment.controller.ts": [
+        "../node_modules/@types/express-serve-static-core/index.d.ts",
+        "../node_modules/@types/qs/index.d.ts",
+        "../node_modules/@types/express/index.d.ts"
+      ],
+      "../src/comment/comment.router.ts": [
+        "../node_modules/@types/express-serve-static-core/index.d.ts"
+      ],
       "../src/app/index.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts"
       ]
@@ -2374,8 +2430,10 @@
       "../src/app/app.config.ts",
       "../src/app/database/mysql.ts",
       "../src/post/post.model.ts",
+      "../src/post/post.service.ts",
       "../src/tag/tag.model.ts",
       "../src/tag/tag.service.ts",
+      "../src/post/post.controller.ts",
       "../src/app/app.middleware.ts",
       "../node_modules/@types/jsonwebtoken/index.d.ts",
       "../node_modules/@types/bcrypt/index.d.ts",
@@ -2432,14 +2490,18 @@
       "../src/file/file.router.ts",
       "../src/tag/tag.controller.ts",
       "../src/tag/tag.router.ts",
+      "../src/comment/comment.model.ts",
+      "../src/comment/comment.provider.ts",
+      "../src/comment/comment.service.ts",
       "../src/app/index.ts",
       "../src/main.ts",
       "../src/playground.ts",
+      "../src/comment/comment.middleware.ts",
       "../src/tag/tag.middleware.ts",
       "../src/user/user.test.ts",
       "../node_modules/@types/prettier/index.d.ts",
-      "../src/post/post.service.ts",
-      "../src/post/post.controller.ts"
+      "../src/comment/comment.controller.ts",
+      "../src/comment/comment.router.ts"
     ]
   },
   "version": "3.8.3"
