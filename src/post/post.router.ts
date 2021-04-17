@@ -1,6 +1,6 @@
 import express from 'express';
 import * as postController from './post.controller';
-import { sort,filter } from './post.middleware';
+import { sort,filter,paginate } from './post.middleware';
 import { authGuard, accessControl } from '../auth/auth.middleware';
 
 const router = express.Router();
@@ -8,7 +8,7 @@ const router = express.Router();
 /**
  * 内容列表
  */
-router.get('/posts', sort, filter,postController.index);
+router.get('/posts', sort, filter,paginate,postController.index);
 
 /**
  * 创建内容

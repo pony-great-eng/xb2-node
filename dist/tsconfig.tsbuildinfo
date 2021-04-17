@@ -386,8 +386,8 @@
         "signature": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528"
       },
       "../src/app/app.config.ts": {
-        "version": "6ea1733d032e3786aa8d888c48a61f3e76eb9e517a7dddb0f92cec5943d7538d",
-        "signature": "7d1d7080b4b06422fd45d832ab8103acfce6809d6f392ece79bb0b3b0d9e8459"
+        "version": "2f1b579ced57907ed752de060d08290bcbfa59c75c60f55c6d1464776275867a",
+        "signature": "a67c3047d4122f754a2e9dcd73987302b9ab25cb3856234be66d216ae117a39f"
       },
       "../src/app/database/mysql.ts": {
         "version": "6e43a3f436be734f98a6f9fd28d3da3424c12701a33bf48bb8976396dde00ab2",
@@ -398,12 +398,12 @@
         "signature": "b052e6fe7bad6bfc4c1b47a3fe023aa6aa9ac54f597cb8d61925b859fc7c9e2b"
       },
       "../src/post/post.service.ts": {
-        "version": "3d13dd8c625ffe8b097481c8afda81938e9886ae4deb8720ab38ef369a3412d8",
-        "signature": "ee44825fd5c67937a0949c7d20df69b89454643fa8c26477843605db1c481994"
+        "version": "292bda9300824d35de220eb6ecdbdedd15fa60b782a615a000e36bbfa5bf9ccb",
+        "signature": "b1cc93ce18327dd01f3d3403bdfc32922d8454b2a9bdb02df33c828e23fea588"
       },
       "../types/express.d.ts": {
-        "version": "99c5acbfd1fd504be2d4d244d810fa27f671a925f8d60c755597a1ecd8fd352b",
-        "signature": "99c5acbfd1fd504be2d4d244d810fa27f671a925f8d60c755597a1ecd8fd352b"
+        "version": "ef725862db5ca243759bb35f2b0810a0e54f6a15a76e75bce30d30a0ee898c6c",
+        "signature": "ef725862db5ca243759bb35f2b0810a0e54f6a15a76e75bce30d30a0ee898c6c"
       },
       "../node_modules/@types/range-parser/index.d.ts": {
         "version": "8c99846dfda4a7a8d0144a73f02281f202ad15b3369fdf50aa36324d156db56b",
@@ -498,12 +498,12 @@
         "signature": "cd1601ced3c58db277c6cb88a31c6977bcd5bf397d218cfbfc86a8802bf9ff82"
       },
       "../src/post/post.controller.ts": {
-        "version": "31baaec08b133a8d1abbeef238e7ad00292d416b6f126012d701dde4a7fac814",
+        "version": "2e88945c7a05b6a31b6c7cfecdf437d4632f40259f9ed49f8adec87368d01109",
         "signature": "ad6779419f8e627c85059d4dc7ebaa11acdf879c1abd081ab9a70fa8d3029d6a"
       },
       "../src/post/post.middleware.ts": {
-        "version": "3f3250d74f55f37f5ddd3ee9c911b6416c50e66c6857fc1ad2ec13df52be98ca",
-        "signature": "00b0ce040e02a897fb8da72e1429a2fa5f40027df3152b4a1cdaa2475359b08e"
+        "version": "8799f723dd3ae5bdadf2562f3b5bad9dcfba54c4518d7acbeb824ff549e0dbfc",
+        "signature": "e54e5c7ff98b82bb692c1c726b3b8be35db3ec2500dbb221ae9c6f535e244530"
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
         "version": "ed2e832899b97594aebebb6f4e29124156d85edad0c4764d3b8a3e5ad1db7eb5",
@@ -530,7 +530,7 @@
         "signature": "b8bf1ff35e9b18b69fd6f990a349ed6dd65f14791d6acc3564ad0e66c7b706ae"
       },
       "../src/post/post.router.ts": {
-        "version": "ab9170ee7488d579e0a0f3b5d1b47f334a311c375094aef6cd6761ca89fc53e6",
+        "version": "ac94e288756c081e89e35ceef0bbf1f30e77b5da02cedc3876252bba3f38368d",
         "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
       },
       "../src/user/user.controller.ts": {
@@ -1315,7 +1315,8 @@
         "../src/tag/tag.service.ts"
       ],
       "../src/post/post.middleware.ts": [
-        "../node_modules/@types/express/index.d.ts"
+        "../node_modules/@types/express/index.d.ts",
+        "../src/app/app.config.ts"
       ],
       "../node_modules/@types/jsonwebtoken/index.d.ts": [
         "../node_modules/@types/node/index.d.ts"
@@ -2454,7 +2455,7 @@
       "../node_modules/@types/lodash/index.d.ts",
       "../src/tag/tag.model.ts",
       "../src/tag/tag.service.ts",
-      "../src/post/post.controller.ts",
+      "../src/post/post.middleware.ts",
       "../node_modules/@types/jsonwebtoken/index.d.ts",
       "../node_modules/@types/bcrypt/index.d.ts",
       "../src/user/user.model.ts",
@@ -2523,7 +2524,7 @@
       "../src/tag/tag.middleware.ts",
       "../src/user/user.test.ts",
       "../node_modules/@types/prettier/index.d.ts",
-      "../src/post/post.middleware.ts"
+      "../src/post/post.controller.ts"
     ]
   },
   "version": "3.8.3"
