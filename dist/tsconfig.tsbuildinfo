@@ -133,9 +133,69 @@
         "version": "14c856df6a94ca1df324ccf88d8d278819778343ef7ee1990abf955d171f5fbe",
         "signature": "f852baed7c0a5efc697045443f02a2950920e41f6517a42cb3b834428913919f"
       },
-      "../types/express.d.ts": {
-        "version": "1d03fea6d446470000f03f09eea03271568493ad0c5d7c329bffed723fcd9adf",
-        "signature": "1d03fea6d446470000f03f09eea03271568493ad0c5d7c329bffed723fcd9adf"
+      "../src/post/post.provider.ts": {
+        "version": "97831065113dd9d2eae33860d9a3c66a459ce244427b8027d9e6460303ee0008",
+        "signature": "5b282d1f106f0c47e6376aa58fb5f37527313ab33b84f266d67e16a0e7c32c7d"
+      },
+      "../node_modules/@types/mysql2/promise.d.ts": {
+        "version": "0006f5483968956135ba3754841600e0a66cc759c99d393a30ec004ec4b71591",
+        "signature": "0006f5483968956135ba3754841600e0a66cc759c99d393a30ec004ec4b71591"
+      },
+      "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts": {
+        "version": "68a41ce1ffd9549bbb69168110225930b1a9ce8ed76e99b2b0d7c79d0bb7970f",
+        "signature": "68a41ce1ffd9549bbb69168110225930b1a9ce8ed76e99b2b0d7c79d0bb7970f"
+      },
+      "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts": {
+        "version": "55ba75ac236f59f384b5c7ad8908d743fd6db3c1ae70da86d5edcf0ec59ca239",
+        "signature": "55ba75ac236f59f384b5c7ad8908d743fd6db3c1ae70da86d5edcf0ec59ca239"
+      },
+      "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts": {
+        "version": "01883034558bd9cb31b1b486b8aa647b721fe174992f38d17543436f5db818fb",
+        "signature": "01883034558bd9cb31b1b486b8aa647b721fe174992f38d17543436f5db818fb"
+      },
+      "../node_modules/@types/mysql/lib/protocol/packets/fieldpacket.d.ts": {
+        "version": "8a24558aa1ba17c0380edd689c95aba36633981da37ef8be7f746450f2304bc4",
+        "signature": "8a24558aa1ba17c0380edd689c95aba36633981da37ef8be7f746450f2304bc4"
+      },
+      "../node_modules/@types/mysql/lib/protocol/packets/field.d.ts": {
+        "version": "98628e03c5b118bbb61b0a292e349d5fea4c4b2886057c54b60a56866cb22e8d",
+        "signature": "98628e03c5b118bbb61b0a292e349d5fea4c4b2886057c54b60a56866cb22e8d"
+      },
+      "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts": {
+        "version": "be7b776514b64e1965ab6d332b8563bf810533512be8f11d3b5a46edb889b1a3",
+        "signature": "be7b776514b64e1965ab6d332b8563bf810533512be8f11d3b5a46edb889b1a3"
+      },
+      "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts": {
+        "version": "59ac0f7a143c27286e509e391755fe59a1b263572cb6883c9c06fd0d75bf3969",
+        "signature": "59ac0f7a143c27286e509e391755fe59a1b263572cb6883c9c06fd0d75bf3969"
+      },
+      "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts": {
+        "version": "a86924ba75c905fe96b171cc70e9021c50438b1889354e65105126aa2111dd72",
+        "signature": "a86924ba75c905fe96b171cc70e9021c50438b1889354e65105126aa2111dd72"
+      },
+      "../node_modules/@types/mysql/lib/connection.d.ts": {
+        "version": "c52052a2b6af143c4f1f94031d91174ca2fd75b59fa86360836ca51c02c9b9ea",
+        "signature": "c52052a2b6af143c4f1f94031d91174ca2fd75b59fa86360836ca51c02c9b9ea"
+      },
+      "../node_modules/@types/mysql/lib/poolconnection.d.ts": {
+        "version": "90431afe1d271ec1ebe1588b5e837e5aa6a4683cb72bc73965624c22da6128d4",
+        "signature": "90431afe1d271ec1ebe1588b5e837e5aa6a4683cb72bc73965624c22da6128d4"
+      },
+      "../node_modules/@types/mysql/lib/pool.d.ts": {
+        "version": "fe89404026e977991faa4da9502fd8426fe2c91e7700d513efc28bedafbe5a64",
+        "signature": "fe89404026e977991faa4da9502fd8426fe2c91e7700d513efc28bedafbe5a64"
+      },
+      "../node_modules/@types/mysql/lib/poolcluster.d.ts": {
+        "version": "a0920bf1d97c918c32388d642b1c92870ed53b740d95da5e0059ad9ebafe2f17",
+        "signature": "a0920bf1d97c918c32388d642b1c92870ed53b740d95da5e0059ad9ebafe2f17"
+      },
+      "../node_modules/@types/mysql/index.d.ts": {
+        "version": "72bcdfb63437b0360414226299d9c7799c810a2713b28ee8a57eb198cecc4427",
+        "signature": "72bcdfb63437b0360414226299d9c7799c810a2713b28ee8a57eb198cecc4427"
+      },
+      "../node_modules/@types/mysql2/index.d.ts": {
+        "version": "d701c51c1bdd212134655fa0205db1d5ac59f24aaa3bfb4bd9d440024895cc0c",
+        "signature": "d701c51c1bdd212134655fa0205db1d5ac59f24aaa3bfb4bd9d440024895cc0c"
       },
       "../node_modules/@types/node/globals.d.ts": {
         "version": "25b4a0c4fab47c373ee49df4c239826ee3430019fc0c1b5e59edc3e398b7468d",
@@ -321,6 +381,30 @@
         "version": "9c4c395e927045b324877acdc4bfb95f128f36bc9f073266a2f0342495075a4f",
         "signature": "9c4c395e927045b324877acdc4bfb95f128f36bc9f073266a2f0342495075a4f"
       },
+      "../node_modules/dotenv/types/index.d.ts": {
+        "version": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528",
+        "signature": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528"
+      },
+      "../src/app/app.config.ts": {
+        "version": "6ea1733d032e3786aa8d888c48a61f3e76eb9e517a7dddb0f92cec5943d7538d",
+        "signature": "7d1d7080b4b06422fd45d832ab8103acfce6809d6f392ece79bb0b3b0d9e8459"
+      },
+      "../src/app/database/mysql.ts": {
+        "version": "6e43a3f436be734f98a6f9fd28d3da3424c12701a33bf48bb8976396dde00ab2",
+        "signature": "95f454c087dff868c3775a63e79cd2f4a5ca0f68495e7b2ab486a3a39723c609"
+      },
+      "../src/post/post.model.ts": {
+        "version": "b2e4fe91bf9ba30467477ba20226817c34b956479e06d5f2d0b0f73cbbfa6152",
+        "signature": "b052e6fe7bad6bfc4c1b47a3fe023aa6aa9ac54f597cb8d61925b859fc7c9e2b"
+      },
+      "../src/post/post.service.ts": {
+        "version": "3d13dd8c625ffe8b097481c8afda81938e9886ae4deb8720ab38ef369a3412d8",
+        "signature": "ee44825fd5c67937a0949c7d20df69b89454643fa8c26477843605db1c481994"
+      },
+      "../types/express.d.ts": {
+        "version": "99c5acbfd1fd504be2d4d244d810fa27f671a925f8d60c755597a1ecd8fd352b",
+        "signature": "99c5acbfd1fd504be2d4d244d810fa27f671a925f8d60c755597a1ecd8fd352b"
+      },
       "../node_modules/@types/range-parser/index.d.ts": {
         "version": "8c99846dfda4a7a8d0144a73f02281f202ad15b3369fdf50aa36324d156db56b",
         "signature": "8c99846dfda4a7a8d0144a73f02281f202ad15b3369fdf50aa36324d156db56b"
@@ -405,86 +489,6 @@
         "version": "0714e2046df66c0e93c3330d30dbc0565b3e8cd3ee302cf99e4ede6220e5fec8",
         "signature": "0714e2046df66c0e93c3330d30dbc0565b3e8cd3ee302cf99e4ede6220e5fec8"
       },
-      "../node_modules/@types/mysql2/promise.d.ts": {
-        "version": "0006f5483968956135ba3754841600e0a66cc759c99d393a30ec004ec4b71591",
-        "signature": "0006f5483968956135ba3754841600e0a66cc759c99d393a30ec004ec4b71591"
-      },
-      "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts": {
-        "version": "68a41ce1ffd9549bbb69168110225930b1a9ce8ed76e99b2b0d7c79d0bb7970f",
-        "signature": "68a41ce1ffd9549bbb69168110225930b1a9ce8ed76e99b2b0d7c79d0bb7970f"
-      },
-      "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts": {
-        "version": "55ba75ac236f59f384b5c7ad8908d743fd6db3c1ae70da86d5edcf0ec59ca239",
-        "signature": "55ba75ac236f59f384b5c7ad8908d743fd6db3c1ae70da86d5edcf0ec59ca239"
-      },
-      "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts": {
-        "version": "01883034558bd9cb31b1b486b8aa647b721fe174992f38d17543436f5db818fb",
-        "signature": "01883034558bd9cb31b1b486b8aa647b721fe174992f38d17543436f5db818fb"
-      },
-      "../node_modules/@types/mysql/lib/protocol/packets/fieldpacket.d.ts": {
-        "version": "8a24558aa1ba17c0380edd689c95aba36633981da37ef8be7f746450f2304bc4",
-        "signature": "8a24558aa1ba17c0380edd689c95aba36633981da37ef8be7f746450f2304bc4"
-      },
-      "../node_modules/@types/mysql/lib/protocol/packets/field.d.ts": {
-        "version": "98628e03c5b118bbb61b0a292e349d5fea4c4b2886057c54b60a56866cb22e8d",
-        "signature": "98628e03c5b118bbb61b0a292e349d5fea4c4b2886057c54b60a56866cb22e8d"
-      },
-      "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts": {
-        "version": "be7b776514b64e1965ab6d332b8563bf810533512be8f11d3b5a46edb889b1a3",
-        "signature": "be7b776514b64e1965ab6d332b8563bf810533512be8f11d3b5a46edb889b1a3"
-      },
-      "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts": {
-        "version": "59ac0f7a143c27286e509e391755fe59a1b263572cb6883c9c06fd0d75bf3969",
-        "signature": "59ac0f7a143c27286e509e391755fe59a1b263572cb6883c9c06fd0d75bf3969"
-      },
-      "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts": {
-        "version": "a86924ba75c905fe96b171cc70e9021c50438b1889354e65105126aa2111dd72",
-        "signature": "a86924ba75c905fe96b171cc70e9021c50438b1889354e65105126aa2111dd72"
-      },
-      "../node_modules/@types/mysql/lib/connection.d.ts": {
-        "version": "c52052a2b6af143c4f1f94031d91174ca2fd75b59fa86360836ca51c02c9b9ea",
-        "signature": "c52052a2b6af143c4f1f94031d91174ca2fd75b59fa86360836ca51c02c9b9ea"
-      },
-      "../node_modules/@types/mysql/lib/poolconnection.d.ts": {
-        "version": "90431afe1d271ec1ebe1588b5e837e5aa6a4683cb72bc73965624c22da6128d4",
-        "signature": "90431afe1d271ec1ebe1588b5e837e5aa6a4683cb72bc73965624c22da6128d4"
-      },
-      "../node_modules/@types/mysql/lib/pool.d.ts": {
-        "version": "fe89404026e977991faa4da9502fd8426fe2c91e7700d513efc28bedafbe5a64",
-        "signature": "fe89404026e977991faa4da9502fd8426fe2c91e7700d513efc28bedafbe5a64"
-      },
-      "../node_modules/@types/mysql/lib/poolcluster.d.ts": {
-        "version": "a0920bf1d97c918c32388d642b1c92870ed53b740d95da5e0059ad9ebafe2f17",
-        "signature": "a0920bf1d97c918c32388d642b1c92870ed53b740d95da5e0059ad9ebafe2f17"
-      },
-      "../node_modules/@types/mysql/index.d.ts": {
-        "version": "72bcdfb63437b0360414226299d9c7799c810a2713b28ee8a57eb198cecc4427",
-        "signature": "72bcdfb63437b0360414226299d9c7799c810a2713b28ee8a57eb198cecc4427"
-      },
-      "../node_modules/@types/mysql2/index.d.ts": {
-        "version": "d701c51c1bdd212134655fa0205db1d5ac59f24aaa3bfb4bd9d440024895cc0c",
-        "signature": "d701c51c1bdd212134655fa0205db1d5ac59f24aaa3bfb4bd9d440024895cc0c"
-      },
-      "../node_modules/dotenv/types/index.d.ts": {
-        "version": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528",
-        "signature": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528"
-      },
-      "../src/app/app.config.ts": {
-        "version": "6ea1733d032e3786aa8d888c48a61f3e76eb9e517a7dddb0f92cec5943d7538d",
-        "signature": "7d1d7080b4b06422fd45d832ab8103acfce6809d6f392ece79bb0b3b0d9e8459"
-      },
-      "../src/app/database/mysql.ts": {
-        "version": "6e43a3f436be734f98a6f9fd28d3da3424c12701a33bf48bb8976396dde00ab2",
-        "signature": "95f454c087dff868c3775a63e79cd2f4a5ca0f68495e7b2ab486a3a39723c609"
-      },
-      "../src/post/post.model.ts": {
-        "version": "b2e4fe91bf9ba30467477ba20226817c34b956479e06d5f2d0b0f73cbbfa6152",
-        "signature": "b052e6fe7bad6bfc4c1b47a3fe023aa6aa9ac54f597cb8d61925b859fc7c9e2b"
-      },
-      "../src/post/post.service.ts": {
-        "version": "7666ac628072de42b7775f3748a39c4a45ef080ddb89c04a3aba1ce8434e658a",
-        "signature": "a31e4ab56d78ca36a4b0608bc0a1bebfc0f6567096345c48a417cdabfaf2debe"
-      },
       "../src/tag/tag.model.ts": {
         "version": "1abfcaa0058587a399595c00489f20d5d413bf102200c004a1a9b53f500c8486",
         "signature": "c01631b9920083f16dbbfc9b0b3dd51214706ad9b08a16d70907a1c06034c2cd"
@@ -494,12 +498,12 @@
         "signature": "cd1601ced3c58db277c6cb88a31c6977bcd5bf397d218cfbfc86a8802bf9ff82"
       },
       "../src/post/post.controller.ts": {
-        "version": "bc50af593d039ac59a68ad72e642bb81e4b47dbf7cfda2d7cf9e444a0c44ee03",
+        "version": "31baaec08b133a8d1abbeef238e7ad00292d416b6f126012d701dde4a7fac814",
         "signature": "ad6779419f8e627c85059d4dc7ebaa11acdf879c1abd081ab9a70fa8d3029d6a"
       },
-      "../src/app/app.middleware.ts": {
-        "version": "ff813e2352c24ae797d18dd6cb7a19aaab2a8a70c57808aea43c24417fd20bc0",
-        "signature": "f89af0738b9101b999ff997089a699035c6c1f603521d22a437d586e8c701e82"
+      "../src/post/post.middleware.ts": {
+        "version": "3f3250d74f55f37f5ddd3ee9c911b6416c50e66c6857fc1ad2ec13df52be98ca",
+        "signature": "00b0ce040e02a897fb8da72e1429a2fa5f40027df3152b4a1cdaa2475359b08e"
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
         "version": "ed2e832899b97594aebebb6f4e29124156d85edad0c4764d3b8a3e5ad1db7eb5",
@@ -526,7 +530,7 @@
         "signature": "b8bf1ff35e9b18b69fd6f990a349ed6dd65f14791d6acc3564ad0e66c7b706ae"
       },
       "../src/post/post.router.ts": {
-        "version": "859d19e012b270701e51605ccc44ad4e0f2985a4bdb978553abda85e32da5487",
+        "version": "ab9170ee7488d579e0a0f3b5d1b47f334a311c375094aef6cd6761ca89fc53e6",
         "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
       },
       "../src/user/user.controller.ts": {
@@ -741,6 +745,10 @@
         "version": "bd3af4095a3aec873a5b85044937af63340bb3e30bbaaeafa8134f8fc3886526",
         "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
       },
+      "../src/app/app.middleware.ts": {
+        "version": "ff813e2352c24ae797d18dd6cb7a19aaab2a8a70c57808aea43c24417fd20bc0",
+        "signature": "f89af0738b9101b999ff997089a699035c6c1f603521d22a437d586e8c701e82"
+      },
       "../src/app/index.ts": {
         "version": "c1eaa37ad452b2be0918ad94272299e2c88e97b2bf281677409a45ae48448075",
         "signature": "629a4ade941bd431c195407a5afd3602c6461fdcc0f65735b7e4a68f8d5d3d51"
@@ -787,8 +795,56 @@
       "configFilePath": "../tsconfig.json"
     },
     "referencedMap": {
-      "../types/express.d.ts": [
-        "../src/auth/auth.interface.ts"
+      "../node_modules/@types/mysql2/promise.d.ts": [
+        "../node_modules/@types/mysql2/index.d.ts",
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts": [
+        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/fieldpacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/field.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts": [
+        "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/connection.d.ts": [
+        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/poolconnection.d.ts": [
+        "../node_modules/@types/mysql/lib/connection.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/pool.d.ts": [
+        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
+        "../node_modules/@types/mysql/lib/connection.d.ts",
+        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/poolcluster.d.ts": [
+        "../node_modules/@types/mysql/lib/connection.d.ts",
+        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/mysql/index.d.ts": [
+        "../node_modules/@types/mysql/lib/connection.d.ts",
+        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
+        "../node_modules/@types/mysql/lib/pool.d.ts",
+        "../node_modules/@types/mysql/lib/poolcluster.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts"
+      ],
+      "../node_modules/@types/mysql2/index.d.ts": [
+        "../node_modules/@types/mysql2/promise.d.ts",
+        "../node_modules/@types/mysql/index.d.ts"
       ],
       "../node_modules/@types/node/async_hooks.d.ts": [
         "../node_modules/@types/node/async_hooks.d.ts"
@@ -1018,6 +1074,26 @@
       "../node_modules/@types/node/index.d.ts": [
         "../node_modules/@types/node/base.d.ts"
       ],
+      "../node_modules/dotenv/types/index.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../src/app/app.config.ts": [
+        "../node_modules/dotenv/types/index.d.ts"
+      ],
+      "../src/app/database/mysql.ts": [
+        "../node_modules/@types/mysql2/index.d.ts",
+        "../src/app/app.config.ts"
+      ],
+      "../src/post/post.service.ts": [
+        "../src/post/post.provider.ts",
+        "../src/app/database/mysql.ts",
+        "../src/post/post.model.ts",
+        "../src/auth/auth.interface.ts"
+      ],
+      "../types/express.d.ts": [
+        "../src/auth/auth.interface.ts",
+        "../src/post/post.service.ts"
+      ],
       "../node_modules/@types/express-serve-static-core/index.d.ts": [
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/events.d.ts",
@@ -1227,71 +1303,6 @@
         "../node_modules/@types/lodash/common/string.d.ts",
         "../node_modules/@types/lodash/common/util.d.ts"
       ],
-      "../node_modules/@types/mysql2/promise.d.ts": [
-        "../node_modules/@types/mysql2/index.d.ts",
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts": [
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts": [
-        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/fieldpacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/field.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts": [
-        "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
-        "../node_modules/@types/node/stream.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/connection.d.ts": [
-        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/poolconnection.d.ts": [
-        "../node_modules/@types/mysql/lib/connection.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/pool.d.ts": [
-        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
-        "../node_modules/@types/mysql/lib/connection.d.ts",
-        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/poolcluster.d.ts": [
-        "../node_modules/@types/mysql/lib/connection.d.ts",
-        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/mysql/index.d.ts": [
-        "../node_modules/@types/mysql/lib/connection.d.ts",
-        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
-        "../node_modules/@types/mysql/lib/pool.d.ts",
-        "../node_modules/@types/mysql/lib/poolcluster.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts"
-      ],
-      "../node_modules/@types/mysql2/index.d.ts": [
-        "../node_modules/@types/mysql2/promise.d.ts",
-        "../node_modules/@types/mysql/index.d.ts"
-      ],
-      "../node_modules/dotenv/types/index.d.ts": [
-        "../node_modules/@types/node/index.d.ts"
-      ],
-      "../src/app/app.config.ts": [
-        "../node_modules/dotenv/types/index.d.ts"
-      ],
-      "../src/app/database/mysql.ts": [
-        "../node_modules/@types/mysql2/index.d.ts",
-        "../src/app/app.config.ts"
-      ],
-      "../src/post/post.service.ts": [
-        "../src/app/database/mysql.ts",
-        "../src/post/post.model.ts"
-      ],
       "../src/tag/tag.service.ts": [
         "../src/app/database/mysql.ts",
         "../src/tag/tag.model.ts"
@@ -1303,7 +1314,7 @@
         "../src/tag/tag.model.ts",
         "../src/tag/tag.service.ts"
       ],
-      "../src/app/app.middleware.ts": [
+      "../src/post/post.middleware.ts": [
         "../node_modules/@types/express/index.d.ts"
       ],
       "../node_modules/@types/jsonwebtoken/index.d.ts": [
@@ -1330,7 +1341,7 @@
       "../src/post/post.router.ts": [
         "../node_modules/@types/express/index.d.ts",
         "../src/post/post.controller.ts",
-        "../src/app/app.middleware.ts",
+        "../src/post/post.middleware.ts",
         "../src/auth/auth.middleware.ts"
       ],
       "../src/user/user.controller.ts": [
@@ -1547,6 +1558,9 @@
         "../src/comment/comment.controller.ts",
         "../src/auth/auth.middleware.ts"
       ],
+      "../src/app/app.middleware.ts": [
+        "../node_modules/@types/express/index.d.ts"
+      ],
       "../src/app/index.ts": [
         "../node_modules/@types/express/index.d.ts",
         "../src/post/post.router.ts",
@@ -1570,8 +1584,56 @@
       ]
     },
     "exportedModulesMap": {
-      "../types/express.d.ts": [
-        "../src/auth/auth.interface.ts"
+      "../node_modules/@types/mysql2/promise.d.ts": [
+        "../node_modules/@types/mysql2/index.d.ts",
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts": [
+        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/fieldpacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/field.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts": [
+        "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/connection.d.ts": [
+        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/poolconnection.d.ts": [
+        "../node_modules/@types/mysql/lib/connection.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/pool.d.ts": [
+        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
+        "../node_modules/@types/mysql/lib/connection.d.ts",
+        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/mysql/lib/poolcluster.d.ts": [
+        "../node_modules/@types/mysql/lib/connection.d.ts",
+        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/mysql/index.d.ts": [
+        "../node_modules/@types/mysql/lib/connection.d.ts",
+        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
+        "../node_modules/@types/mysql/lib/pool.d.ts",
+        "../node_modules/@types/mysql/lib/poolcluster.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts"
+      ],
+      "../node_modules/@types/mysql2/index.d.ts": [
+        "../node_modules/@types/mysql2/promise.d.ts",
+        "../node_modules/@types/mysql/index.d.ts"
       ],
       "../node_modules/@types/node/async_hooks.d.ts": [
         "../node_modules/@types/node/async_hooks.d.ts"
@@ -1801,6 +1863,22 @@
       "../node_modules/@types/node/index.d.ts": [
         "../node_modules/@types/node/base.d.ts"
       ],
+      "../node_modules/dotenv/types/index.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../src/app/database/mysql.ts": [
+        "../node_modules/@types/mysql2/index.d.ts"
+      ],
+      "../src/post/post.service.ts": [
+        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts",
+        "../src/post/post.model.ts"
+      ],
+      "../types/express.d.ts": [
+        "../src/auth/auth.interface.ts",
+        "../src/post/post.service.ts"
+      ],
       "../node_modules/@types/express-serve-static-core/index.d.ts": [
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/events.d.ts",
@@ -2010,69 +2088,6 @@
         "../node_modules/@types/lodash/common/string.d.ts",
         "../node_modules/@types/lodash/common/util.d.ts"
       ],
-      "../node_modules/@types/mysql2/promise.d.ts": [
-        "../node_modules/@types/mysql2/index.d.ts",
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts": [
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts": [
-        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/fieldpacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/field.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts": [
-        "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
-        "../node_modules/@types/node/stream.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/connection.d.ts": [
-        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/poolconnection.d.ts": [
-        "../node_modules/@types/mysql/lib/connection.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/pool.d.ts": [
-        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
-        "../node_modules/@types/mysql/lib/connection.d.ts",
-        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/mysql/lib/poolcluster.d.ts": [
-        "../node_modules/@types/mysql/lib/connection.d.ts",
-        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/mysql/index.d.ts": [
-        "../node_modules/@types/mysql/lib/connection.d.ts",
-        "../node_modules/@types/mysql/lib/poolconnection.d.ts",
-        "../node_modules/@types/mysql/lib/pool.d.ts",
-        "../node_modules/@types/mysql/lib/poolcluster.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts"
-      ],
-      "../node_modules/@types/mysql2/index.d.ts": [
-        "../node_modules/@types/mysql2/promise.d.ts",
-        "../node_modules/@types/mysql/index.d.ts"
-      ],
-      "../node_modules/dotenv/types/index.d.ts": [
-        "../node_modules/@types/node/index.d.ts"
-      ],
-      "../src/app/database/mysql.ts": [
-        "../node_modules/@types/mysql2/index.d.ts"
-      ],
-      "../src/post/post.service.ts": [
-        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts",
-        "../src/post/post.model.ts"
-      ],
       "../src/tag/tag.service.ts": [
         "../src/tag/tag.model.ts"
       ],
@@ -2081,7 +2096,7 @@
         "../node_modules/@types/qs/index.d.ts",
         "../node_modules/@types/express/index.d.ts"
       ],
-      "../src/app/app.middleware.ts": [
+      "../src/post/post.middleware.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts",
         "../node_modules/@types/qs/index.d.ts",
         "../node_modules/@types/express/index.d.ts"
@@ -2305,6 +2320,11 @@
       "../src/comment/comment.router.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts"
       ],
+      "../src/app/app.middleware.ts": [
+        "../node_modules/@types/express-serve-static-core/index.d.ts",
+        "../node_modules/@types/qs/index.d.ts",
+        "../node_modules/@types/express/index.d.ts"
+      ],
       "../src/app/index.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts"
       ]
@@ -2343,7 +2363,22 @@
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../node_modules/typescript/lib/lib.es2017.full.d.ts",
       "../src/auth/auth.interface.ts",
-      "../types/express.d.ts",
+      "../src/post/post.provider.ts",
+      "../node_modules/@types/mysql2/promise.d.ts",
+      "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts",
+      "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
+      "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
+      "../node_modules/@types/mysql/lib/protocol/packets/fieldpacket.d.ts",
+      "../node_modules/@types/mysql/lib/protocol/packets/field.d.ts",
+      "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts",
+      "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
+      "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
+      "../node_modules/@types/mysql/lib/connection.d.ts",
+      "../node_modules/@types/mysql/lib/poolconnection.d.ts",
+      "../node_modules/@types/mysql/lib/pool.d.ts",
+      "../node_modules/@types/mysql/lib/poolcluster.d.ts",
+      "../node_modules/@types/mysql/index.d.ts",
+      "../node_modules/@types/mysql2/index.d.ts",
       "../node_modules/@types/node/globals.d.ts",
       "../node_modules/@types/node/async_hooks.d.ts",
       "../node_modules/@types/node/buffer.d.ts",
@@ -2390,6 +2425,12 @@
       "../node_modules/@types/node/assert.d.ts",
       "../node_modules/@types/node/base.d.ts",
       "../node_modules/@types/node/index.d.ts",
+      "../node_modules/dotenv/types/index.d.ts",
+      "../src/app/app.config.ts",
+      "../src/app/database/mysql.ts",
+      "../src/post/post.model.ts",
+      "../src/post/post.service.ts",
+      "../types/express.d.ts",
       "../node_modules/@types/range-parser/index.d.ts",
       "../node_modules/@types/qs/index.d.ts",
       "../node_modules/@types/express-serve-static-core/index.d.ts",
@@ -2411,30 +2452,9 @@
       "../node_modules/@types/lodash/common/string.d.ts",
       "../node_modules/@types/lodash/common/util.d.ts",
       "../node_modules/@types/lodash/index.d.ts",
-      "../node_modules/@types/mysql2/promise.d.ts",
-      "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts",
-      "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
-      "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
-      "../node_modules/@types/mysql/lib/protocol/packets/fieldpacket.d.ts",
-      "../node_modules/@types/mysql/lib/protocol/packets/field.d.ts",
-      "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts",
-      "../node_modules/@types/mysql/lib/protocol/packets/index.d.ts",
-      "../node_modules/@types/mysql/lib/protocol/sequences/query.d.ts",
-      "../node_modules/@types/mysql/lib/connection.d.ts",
-      "../node_modules/@types/mysql/lib/poolconnection.d.ts",
-      "../node_modules/@types/mysql/lib/pool.d.ts",
-      "../node_modules/@types/mysql/lib/poolcluster.d.ts",
-      "../node_modules/@types/mysql/index.d.ts",
-      "../node_modules/@types/mysql2/index.d.ts",
-      "../node_modules/dotenv/types/index.d.ts",
-      "../src/app/app.config.ts",
-      "../src/app/database/mysql.ts",
-      "../src/post/post.model.ts",
-      "../src/post/post.service.ts",
       "../src/tag/tag.model.ts",
       "../src/tag/tag.service.ts",
       "../src/post/post.controller.ts",
-      "../src/app/app.middleware.ts",
       "../node_modules/@types/jsonwebtoken/index.d.ts",
       "../node_modules/@types/bcrypt/index.d.ts",
       "../src/user/user.model.ts",
@@ -2493,6 +2513,9 @@
       "../src/comment/comment.model.ts",
       "../src/comment/comment.provider.ts",
       "../src/comment/comment.service.ts",
+      "../src/comment/comment.controller.ts",
+      "../src/comment/comment.router.ts",
+      "../src/app/app.middleware.ts",
       "../src/app/index.ts",
       "../src/main.ts",
       "../src/playground.ts",
@@ -2500,8 +2523,7 @@
       "../src/tag/tag.middleware.ts",
       "../src/user/user.test.ts",
       "../node_modules/@types/prettier/index.d.ts",
-      "../src/comment/comment.controller.ts",
-      "../src/comment/comment.router.ts"
+      "../src/post/post.middleware.ts"
     ]
   },
   "version": "3.8.3"
