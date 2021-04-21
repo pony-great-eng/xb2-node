@@ -398,7 +398,7 @@
         "signature": "b052e6fe7bad6bfc4c1b47a3fe023aa6aa9ac54f597cb8d61925b859fc7c9e2b"
       },
       "../src/post/post.service.ts": {
-        "version": "292bda9300824d35de220eb6ecdbdedd15fa60b782a615a000e36bbfa5bf9ccb",
+        "version": "4f3e9b21d4a9b2f643c4607f5e0b657f7e393f4f59c1b443f02786c0b285e365",
         "signature": "b1cc93ce18327dd01f3d3403bdfc32922d8454b2a9bdb02df33c828e23fea588"
       },
       "../types/express.d.ts": {
@@ -502,7 +502,7 @@
         "signature": "ad6779419f8e627c85059d4dc7ebaa11acdf879c1abd081ab9a70fa8d3029d6a"
       },
       "../src/post/post.middleware.ts": {
-        "version": "8799f723dd3ae5bdadf2562f3b5bad9dcfba54c4518d7acbeb824ff549e0dbfc",
+        "version": "40ce5a43a12833d98301d4764e3d4d336e8ef5f8d5726cecfefd3c33cbce9012",
         "signature": "e54e5c7ff98b82bb692c1c726b3b8be35db3ec2500dbb221ae9c6f535e244530"
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -765,12 +765,24 @@
         "version": "98b96ea97eec14bc1927cbf8db666031b41a5093b4d5f443858530ededceb7cc",
         "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
       },
+      "../src/like/like.service.ts": {
+        "version": "59477df97df19bfd9f6f2688e45c2d23c6502f6a261f0f6c62c674ae6978b3f4",
+        "signature": "e74b5f2abfb0b9d713eeaf0dfc99dc46ba180b643d5114a0010f76c2249cdb9a"
+      },
+      "../src/like/like.controller.ts": {
+        "version": "ff28f564d146d1e916ce496e577a6edfb67895215b2d29650cd568bbf1b5b99c",
+        "signature": "0f2a663a034f2b2303c1f1ea0a7704b99378c1a226fc1e724bb0303bc525ad3e"
+      },
+      "../src/like/like.router.ts": {
+        "version": "b0d1b028ed3dc6216449105eca628a81c0aa04612cc20a0c55137bde711dcc81",
+        "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
+      },
       "../src/app/app.middleware.ts": {
         "version": "247691c3c31aad18dbfb0af95b212cc5a691c3088938d7dd3582239c07a02cca",
         "signature": "f89af0738b9101b999ff997089a699035c6c1f603521d22a437d586e8c701e82"
       },
       "../src/app/index.ts": {
-        "version": "0849380a0a56933fd63db7d37ad36ba432aa24ab733209ceee070677c0fb2097",
+        "version": "5be3173d694102f0e25a05f10399c9934d36261afae4831d095b6736414d3328",
         "signature": "629a4ade941bd431c195407a5afd3602c6461fdcc0f65735b7e4a68f8d5d3d51"
       },
       "../src/main.ts": {
@@ -782,6 +794,10 @@
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "../src/comment/comment.middleware.ts": {
+        "version": "e7b8f28ed58bd1d2a6395e6daea1d15ae712c7c22fe229b41ae8ee8f14db1aee",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "../src/like/like.middleware.ts": {
         "version": "e7b8f28ed58bd1d2a6395e6daea1d15ae712c7c22fe229b41ae8ee8f14db1aee",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
@@ -1604,6 +1620,18 @@
         "../src/auth/auth.middleware.ts",
         "../src/avatar/avatar.middleware.ts"
       ],
+      "../src/like/like.service.ts": [
+        "../src/app/database/mysql.ts"
+      ],
+      "../src/like/like.controller.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../src/like/like.service.ts"
+      ],
+      "../src/like/like.router.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../src/like/like.controller.ts",
+        "../src/auth/auth.middleware.ts"
+      ],
       "../src/app/app.middleware.ts": [
         "../node_modules/@types/express/index.d.ts"
       ],
@@ -1616,6 +1644,7 @@
         "../src/tag/tag.router.ts",
         "../src/comment/comment.router.ts",
         "../src/avatar/avatar.router.ts",
+        "../src/like/like.router.ts",
         "../src/app/app.middleware.ts"
       ],
       "../src/main.ts": [
@@ -1624,6 +1653,9 @@
         "../src/app/database/mysql.ts"
       ],
       "../src/comment/comment.middleware.ts": [
+        "../node_modules/@types/express/index.d.ts"
+      ],
+      "../src/like/like.middleware.ts": [
         "../node_modules/@types/express/index.d.ts"
       ],
       "../src/tag/tag.middleware.ts": [
@@ -2387,6 +2419,19 @@
       "../src/avatar/avatar.router.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts"
       ],
+      "../src/like/like.service.ts": [
+        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts"
+      ],
+      "../src/like/like.controller.ts": [
+        "../node_modules/@types/express-serve-static-core/index.d.ts",
+        "../node_modules/@types/qs/index.d.ts",
+        "../node_modules/@types/express/index.d.ts"
+      ],
+      "../src/like/like.router.ts": [
+        "../node_modules/@types/express-serve-static-core/index.d.ts"
+      ],
       "../src/app/app.middleware.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts",
         "../node_modules/@types/qs/index.d.ts",
@@ -2430,6 +2475,7 @@
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../node_modules/typescript/lib/lib.es2017.full.d.ts",
       "../src/auth/auth.interface.ts",
+      "../src/post/post.provider.ts",
       "../node_modules/@types/mysql2/promise.d.ts",
       "../node_modules/@types/mysql/lib/protocol/sequences/sequence.d.ts",
       "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
@@ -2495,7 +2541,6 @@
       "../src/app/app.config.ts",
       "../src/app/database/mysql.ts",
       "../src/post/post.model.ts",
-      "../src/post/post.service.ts",
       "../types/express.d.ts",
       "../node_modules/@types/range-parser/index.d.ts",
       "../node_modules/@types/qs/index.d.ts",
@@ -2587,15 +2632,19 @@
       "../src/avatar/avatar.middleware.ts",
       "../src/avatar/avatar.controller.ts",
       "../src/avatar/avatar.router.ts",
+      "../src/like/like.service.ts",
+      "../src/like/like.controller.ts",
+      "../src/like/like.router.ts",
       "../src/app/app.middleware.ts",
       "../src/app/index.ts",
       "../src/main.ts",
       "../src/playground.ts",
       "../src/comment/comment.middleware.ts",
+      "../src/like/like.middleware.ts",
       "../src/tag/tag.middleware.ts",
       "../src/user/user.test.ts",
       "../node_modules/@types/prettier/index.d.ts",
-      "../src/post/post.provider.ts"
+      "../src/post/post.service.ts"
     ]
   },
   "version": "3.8.3"
