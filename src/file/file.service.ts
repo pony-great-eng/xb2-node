@@ -7,43 +7,41 @@ import { FileModel } from './file.model';
 /**
  * 存储文件信息
  */
- export const createFile = async (file: FileModel) => {
-    // 准备查询
-    const statement = `
-      INSERT INTO file
-      SET ?
-    `;
-  
-    // 执行查询
-    const [data] = await connection.promise().query(statement, file);
-  
-    // 提供数据
-    return data;
-  };
-
-  /**
-   * 按照ID查找文件
-   */
-export const findFileById = async (
-  fileId:number
-) => {
-  //准备查询
-  const statement=`
-  SELECT * FROM file
-  WHERE id = ?
+export const createFile = async (file: FileModel) => {
+  // 准备查询
+  const statement = `
+    INSERT INTO file
+    SET ?
   `;
 
-  //执行查询
-  const [data] = await connection.promise().query(statement,fileId);
+  // 执行查询
+  const [data] = await connection.promise().query(statement, file);
 
-  //提供数据
+  // 提供数据
+  return data;
+};
+
+/**
+ * 按 ID 查找文件
+ */
+export const findFileById = async (fileId: number) => {
+  // 准备查询
+  const statement = `
+    SELECT * FROM file
+    WHERE id = ?
+  `;
+
+  // 执行查询
+  const [data] = await connection.promise().query(statement, fileId);
+
+  // 提供数据
   return data[0];
 };
 
 /**
  * 调整图像尺寸
  */
- export const imageResizer = async (image: Jimp, file: Express.Multer.File) => {
+export const imageResizer = async (image: Jimp, file: Express.Multer.File) => {
   // 图像尺寸
   const { imageSize } = image['_exif'];
 
@@ -73,4 +71,53 @@ export const findFileById = async (
       .quality(85)
       .write(`${filePath}-thumbnail`);
   }
+};
+
+/**
+ * 找出内容文件
+ */
+export const getPostFiles = async (postId: number) => {
+  const statement = `
+    SELECT
+      file.filename
+    FROM
+      file
+    WHERE
+      postId = ?
+  `;
+
+  // 执行查询
+  const [data] = await connection.promise().query(statement, postId);
+
+  // 提供数据
+  return data as any;
+};
+
+/**
+ * 删除内容文件
+ */
+export const deletePostFiles = async (files: Array<FileModel>) => {
+  const uploads = 'uploads';
+  const resized = [uploads, 'resized'];
+
+  files.map(file => {
+    const filesToDelete = [
+      [uploads, file.filename],
+      [...resized, `${file.filename}-thumbnail`],
+      [...resized, `${file.filename}-medium`],
+      [...resized, `${file.filename}-large`],
+    ];
+
+    filesToDelete.map(item => {
+      const filePath = path.join(...item);
+
+      fs.stat(filePath, (error, stats) => {
+        if (stats) {
+          fs.unlink(filePath, error => {
+            if (error) throw error;
+          });
+        }
+      });
+    });
+  });
 };

@@ -1,9 +1,9 @@
 import express from 'express';
 import * as commentController from './comment.controller';
 import { authGuard, accessControl } from '../auth/auth.middleware';
-// import { filter } from './comment.middleware';
-// import { paginate } from '../post/post.middleware';
-// import { COMMENTS_PER_PAGE } from '../app/app.config';
+import { filter } from './comment.middleware';
+import { paginate } from '../post/post.middleware';
+import { COMMENTS_PER_PAGE } from '../app/app.config';
 
 const router = express.Router();
 
@@ -37,6 +37,21 @@ router.delete(
   commentController.destroy,
 );
 
+
+/**
+ * 评论列表
+ */
+ router.get(
+  '/comments',
+  filter,
+  paginate(COMMENTS_PER_PAGE),
+  commentController.index,
+);
+
+/**
+ * 回复列表
+ */
+router.get('/comments/:commentId/replies', commentController.indexReplies);
 
 /**
  * 导出路由

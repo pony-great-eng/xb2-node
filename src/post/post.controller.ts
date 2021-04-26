@@ -1,17 +1,19 @@
 import { Request, Response, NextFunction } from 'express';
 import _ from 'lodash';
-import { 
+import {
   getPosts,
-   createPost, 
-   updatePost, 
-   deletePost,
+  createPost,
+  updatePost,
+  deletePost,
   createPostTag,
   postHasTag,
   deletePostTag,
-  getPostsTotalCount
+  getPostsTotalCount,
+  getPostById,
 } from './post.service';
-import {TagModel} from '../tag/tag.model';
-import {getTagByName,createTag} from '../tag/tag.service';
+import { TagModel } from '../tag/tag.model';
+import { getTagByName, createTag } from '../tag/tag.service';
+import { deletePostFiles, getPostFiles } from '../file/file.service';
 
 /**
  * 内容列表
@@ -33,9 +35,10 @@ export const index = async (
 
   try {
     const posts = await getPosts({
-    sort:request.sort,
-    filter:request.filter,
-    pagination:request.pagination,
+      sort: request.sort,
+      filter: request.filter,
+      pagination: request.pagination,
+      currentUser: request.user,
     });
     response.send(posts);
   } catch (error) {
@@ -51,11 +54,11 @@ export const store = async (
   response: Response,
   next: NextFunction,
 ) => {
-  //准备数据
+  // 准备数据
   const { title, content } = request.body;
   const { id: userId } = request.user;
 
-  //创建内容
+  // 创建内容
   try {
     const data = await createPost({ title, content, userId });
     response.status(201).send(data);
@@ -72,13 +75,13 @@ export const update = async (
   response: Response,
   next: NextFunction,
 ) => {
-  //获取内容id
+  // 获取内容 ID
   const { postId } = request.params;
 
-  //准备数据
+  // 准备数据
   const post = _.pick(request.body, ['title', 'content']);
 
-  //更新
+  // 更新
   try {
     const data = await updatePost(parseInt(postId, 10), post);
     response.send(data);
@@ -95,11 +98,17 @@ export const destroy = async (
   response: Response,
   next: NextFunction,
 ) => {
-  //获取内容id
+  // 获取内容 ID
   const { postId } = request.params;
 
-  //删除内容
+  // 删除内容
   try {
+    const files = await getPostFiles(parseInt(postId, 10));
+
+    if (files.length) {
+      await deletePostFiles(files);
+    }
+
     const data = await deletePost(parseInt(postId, 10));
     response.send(data);
   } catch (error) {
@@ -110,7 +119,7 @@ export const destroy = async (
 /**
  * 添加内容标签
  */
- export const storePostTag = async (
+export const storePostTag = async (
   request: Request,
   response: Response,
   next: NextFunction,
@@ -157,11 +166,10 @@ export const destroy = async (
   }
 };
 
-
 /**
  * 移除内容标签
  */
- export const destroyPostTag = async (
+export const destroyPostTag = async (
   request: Request,
   response: Response,
   next: NextFunction,
@@ -174,6 +182,31 @@ export const destroy = async (
   try {
     await deletePostTag(parseInt(postId, 10), tagId);
     response.sendStatus(200);
+  } catch (error) {
+    next(error);
+  }
+};
+
+/**
+ * 单个内容
+ */
+export const show = async (
+  request: Request,
+  response: Response,
+  next: NextFunction,
+) => {
+  // 准备数据
+  const { postId } = request.params;
+
+  // 调取内容
+  try {
+    const post = await getPostById(parseInt(postId, 10), {
+     
+      currentUser: request.user,
+    });
+
+    //做出响应
+    response.send(post);
   } catch (error) {
     next(error);
   }

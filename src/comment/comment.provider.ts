@@ -19,17 +19,19 @@
       LEFT JOIN post
         ON post.id = comment.postId
     `,
+
     post: `
-      JSON_OBJECT(
-        'id', post.id,
-        'title', post.title
-      ) AS post
+    JSON_OBJECT(
+      'id',post.id,
+      'title',post.title,
+    ) AS post
     `,
+
     repliedComment: `
       (
         SELECT
           JSON_OBJECT(
-            'id', repliedComment.id,
+            'id', repliedComment.id
             'content', repliedComment.content
           )
         FROM
@@ -47,6 +49,6 @@
         WHERE
           reply.parentId = comment.id
       ) AS totalReplies
-    `,
+    `
   };
   
