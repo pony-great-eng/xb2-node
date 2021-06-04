@@ -389,22 +389,6 @@
         "version": "6e43a3f436be734f98a6f9fd28d3da3424c12701a33bf48bb8976396dde00ab2",
         "signature": "95f454c087dff868c3775a63e79cd2f4a5ca0f68495e7b2ab486a3a39723c609"
       },
-      "../src/post/post.model.ts": {
-        "version": "b2e4fe91bf9ba30467477ba20226817c34b956479e06d5f2d0b0f73cbbfa6152",
-        "signature": "b052e6fe7bad6bfc4c1b47a3fe023aa6aa9ac54f597cb8d61925b859fc7c9e2b"
-      },
-      "../src/post/post.provider.ts": {
-        "version": "51d0efcbe1e04a495c3d8a8e69a8805ea8cef3d8c05c9fb4a68e636168044eb8",
-        "signature": "5b282d1f106f0c47e6376aa58fb5f37527313ab33b84f266d67e16a0e7c32c7d"
-      },
-      "../src/post/post.service.ts": {
-        "version": "91d653665f661bdf3eb275f0662d76886b622cd77b2022acb7aa35287833f903",
-        "signature": "e67d4f4f59695e41401e63efb0ea421a844340b56e602039dc47c0511df1b4c1"
-      },
-      "../types/express.d.ts": {
-        "version": "ef725862db5ca243759bb35f2b0810a0e54f6a15a76e75bce30d30a0ee898c6c",
-        "signature": "ef725862db5ca243759bb35f2b0810a0e54f6a15a76e75bce30d30a0ee898c6c"
-      },
       "../node_modules/@types/range-parser/index.d.ts": {
         "version": "8c99846dfda4a7a8d0144a73f02281f202ad15b3369fdf50aa36324d156db56b",
         "signature": "8c99846dfda4a7a8d0144a73f02281f202ad15b3369fdf50aa36324d156db56b"
@@ -436,6 +420,46 @@
       "../node_modules/@types/express/index.d.ts": {
         "version": "f99754f0449de16d537f0fa1a47c02faa6f056079f4469e260d57f236f205c0d",
         "signature": "f99754f0449de16d537f0fa1a47c02faa6f056079f4469e260d57f236f205c0d"
+      },
+      "../node_modules/@types/jsonwebtoken/index.d.ts": {
+        "version": "ed2e832899b97594aebebb6f4e29124156d85edad0c4764d3b8a3e5ad1db7eb5",
+        "signature": "ed2e832899b97594aebebb6f4e29124156d85edad0c4764d3b8a3e5ad1db7eb5"
+      },
+      "../node_modules/@types/bcrypt/index.d.ts": {
+        "version": "18b9a9702d2fc7d3766b0c8124133c761ad25a9d767925005777eb2c2cd8aeba",
+        "signature": "18b9a9702d2fc7d3766b0c8124133c761ad25a9d767925005777eb2c2cd8aeba"
+      },
+      "../src/user/user.model.ts": {
+        "version": "438fee0830d24542278bc3fecb6c24608ef4721d3884a0fdab08342d69c9ac22",
+        "signature": "c0c4f6e95c87e2adb92ab955bf7156bfa015433ec41ebfe889c40ceedcdfdc6a"
+      },
+      "../src/user/user.service.ts": {
+        "version": "ef990aac5bd19afce73eff53f75a40f1bea5d0b6f48c6e78972051af45ce9e98",
+        "signature": "a6d11d2dc0f999efda181725761193c5e4a005089e657a52828ed3eb4035b032"
+      },
+      "../src/auth/auth.service.ts": {
+        "version": "a5ae1ce4c6b5ac5aeb8049bf6dba721452ac7fb707a50b499ce90bafd0b2584d",
+        "signature": "5ebd32cdcfe59a18ccee6d0e01330486e8dd8a4bceedb20236c280389605092f"
+      },
+      "../src/auth/auth.middleware.ts": {
+        "version": "39bd4338bc406515009b477794ce0c34192c53fb7c019551b3394db58a318e6c",
+        "signature": "188fc2295b137a4930e85cf88734b1198023097fa8161b683e5132f0ba769e27"
+      },
+      "../src/post/post.model.ts": {
+        "version": "b2e4fe91bf9ba30467477ba20226817c34b956479e06d5f2d0b0f73cbbfa6152",
+        "signature": "b052e6fe7bad6bfc4c1b47a3fe023aa6aa9ac54f597cb8d61925b859fc7c9e2b"
+      },
+      "../src/post/post.provider.ts": {
+        "version": "51d0efcbe1e04a495c3d8a8e69a8805ea8cef3d8c05c9fb4a68e636168044eb8",
+        "signature": "5b282d1f106f0c47e6376aa58fb5f37527313ab33b84f266d67e16a0e7c32c7d"
+      },
+      "../src/post/post.service.ts": {
+        "version": "8c647105937327ea561d4a531bf076602e61f173ac4ba424b493c57d7181e648",
+        "signature": "54aeac8e3730f14946484689aaed033c0d0a4df45eb76bf5968b46533227ec97"
+      },
+      "../types/express.d.ts": {
+        "version": "ef725862db5ca243759bb35f2b0810a0e54f6a15a76e75bce30d30a0ee898c6c",
+        "signature": "ef725862db5ca243759bb35f2b0810a0e54f6a15a76e75bce30d30a0ee898c6c"
       },
       "../node_modules/@types/lodash/common/common.d.ts": {
         "version": "3594c022901a1c8993b0f78a3f534cfb81e7b619ed215348f7f6882f3db02abc",
@@ -646,35 +670,11 @@
         "signature": "fa3ad5e89acd38654088beada57bb1f324c7534dfce4abc409bc65e566fd8ea9"
       },
       "../src/post/post.controller.ts": {
-        "version": "f546d3a9640065aed426080615cc3afb9bec1286e82d5cc504ee3bc090a2f120",
+        "version": "e30dfb43f1c245a570cf30395bdf21a9ba7ccecf4b7bd48be0a3a9e5a746953d",
         "signature": "d57dc87e5709c48b9f9d6a0375ec3d5b2efd61ed1fe1d5f064be3824b2ab2a22"
       },
-      "../node_modules/@types/jsonwebtoken/index.d.ts": {
-        "version": "ed2e832899b97594aebebb6f4e29124156d85edad0c4764d3b8a3e5ad1db7eb5",
-        "signature": "ed2e832899b97594aebebb6f4e29124156d85edad0c4764d3b8a3e5ad1db7eb5"
-      },
-      "../node_modules/@types/bcrypt/index.d.ts": {
-        "version": "18b9a9702d2fc7d3766b0c8124133c761ad25a9d767925005777eb2c2cd8aeba",
-        "signature": "18b9a9702d2fc7d3766b0c8124133c761ad25a9d767925005777eb2c2cd8aeba"
-      },
-      "../src/user/user.model.ts": {
-        "version": "438fee0830d24542278bc3fecb6c24608ef4721d3884a0fdab08342d69c9ac22",
-        "signature": "c0c4f6e95c87e2adb92ab955bf7156bfa015433ec41ebfe889c40ceedcdfdc6a"
-      },
-      "../src/user/user.service.ts": {
-        "version": "ef990aac5bd19afce73eff53f75a40f1bea5d0b6f48c6e78972051af45ce9e98",
-        "signature": "a6d11d2dc0f999efda181725761193c5e4a005089e657a52828ed3eb4035b032"
-      },
-      "../src/auth/auth.service.ts": {
-        "version": "a5ae1ce4c6b5ac5aeb8049bf6dba721452ac7fb707a50b499ce90bafd0b2584d",
-        "signature": "5ebd32cdcfe59a18ccee6d0e01330486e8dd8a4bceedb20236c280389605092f"
-      },
-      "../src/auth/auth.middleware.ts": {
-        "version": "7ced957f54064daf0af8187a1bc4ad8566831f310eaec340fc0ce79739eeea1d",
-        "signature": "b8bf1ff35e9b18b69fd6f990a349ed6dd65f14791d6acc3564ad0e66c7b706ae"
-      },
       "../src/post/post.middleware.ts": {
-        "version": "46cf7f0899445d9940d050ee43b224fafc8152aa72234540dcc3d282e0806a80",
+        "version": "3c3a20d7a85252830c0352a0330def2c1487bc6e3c6f48e08c86c53a0d44e21b",
         "signature": "f5dec6c001d6f71e92562503c9bd9e3c9df58da3232b3d2db94904c601f7885b"
       },
       "../src/post/post.router.ts": {
@@ -710,7 +710,7 @@
         "signature": "054c16c6ed7d4284d0346f87d0572cd5aad26fea25648fdd821002eca7b7a404"
       },
       "../src/file/file.middleware.ts": {
-        "version": "75ec197ac30c398a348b4bb942a60ceb2ea8496e1e75d5c9c7f4200f03238dbf",
+        "version": "d2bf615fc50706f04ec2cc6a9ade1a3415f9575a0542bc7cb4be93f7b6a43fe5",
         "signature": "e7b6607312ec03240d9824e593bd8e3767227bf0a8dd3aa32f3337534dc23909"
       },
       "../src/file/file.router.ts": {
@@ -730,23 +730,23 @@
         "signature": "a710a6e14e50680e5b5d0de7865ac67151aee47ed36823fc6d73ec06330aeb51"
       },
       "../src/comment/comment.provider.ts": {
-        "version": "70a1d3ed3c782856afda43f2b28ccb22794f2c89c37bb5679fe77d973544f3ae",
-        "signature": "0c6ebd94e44df0e35f7eb1f70e3cd4213a618bba198302a7ac3f1f56c7efa363"
+        "version": "05cc903b769f454ae8808ab7cb52a4b1b80ddc2ac22f4f67f3935d5925092177",
+        "signature": "92c786251668a19b81ae0c1f8e6c096047ed8e1eeb052baf1567e345bdae377f"
       },
       "../src/comment/comment.service.ts": {
-        "version": "ace38bd4ef1a8d659b5907389b766b8a788ec22705c6ad0f43882cf60ddbe19f",
-        "signature": "17f377233026c272ef947997cb6f86a32dda5f4b1a7de22405c91dd45db3ed6c"
+        "version": "95cd36aeb6b200a29939d44a8dee34be2fc2679886a8df7cc5f0a6f7bdad4177",
+        "signature": "40e690bbb6e26f27a33b6e10cf0f3397915df94307761ab2ee7db376935a933e"
       },
       "../src/comment/comment.controller.ts": {
-        "version": "2e7a0f9e0c9b9907e45b85667ee1c79194979d57bb0c4a2f562bf0bfe58da464",
+        "version": "16da17009746143c01ec8141af51dd0e9f650bc21db2a9db3d61d4d744394873",
         "signature": "93ec37f1bbe9db5059cb5864cfa6d9d0ee17319f8e22acf293b28bb95ada15fc"
       },
       "../src/comment/comment.middleware.ts": {
-        "version": "477b6265e667f7845fe178288d20350a84533c8d8ad24b231b49951ad5e1e2c1",
+        "version": "4278fff124b34d7d2e8903266e87414b13f4381af17feca4440292f1aadc59eb",
         "signature": "14d6646e116c30b3ba457ea84bef4ed55a3451971c150cf9cb511d7e39824d47"
       },
       "../src/comment/comment.router.ts": {
-        "version": "790e55ca8440e7e3e65c8fe2aecd693d76b66e7568a912948dc0f679fc74276e",
+        "version": "92b2a71dec20e00f47dc74ab0d0ca409c51cfeb04e6bc2dcf2e2cab488b890c9",
         "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
       },
       "../src/avatar/avatar.model.ts": {
@@ -809,9 +809,97 @@
         "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
+      "../node_modules/@babel/types/lib/index.d.ts": {
+        "version": "b668b7fb7c52a05fb9233a27ba5099a73cd8e157b037d67399336635495ab483",
+        "signature": "b668b7fb7c52a05fb9233a27ba5099a73cd8e157b037d67399336635495ab483"
+      },
+      "../node_modules/@types/babel__generator/index.d.ts": {
+        "version": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e",
+        "signature": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e"
+      },
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts": {
+        "version": "069733dc220affbe58d9c1d1a93af3707bc515aaed761701d8741b57da4cb964",
+        "signature": "069733dc220affbe58d9c1d1a93af3707bc515aaed761701d8741b57da4cb964"
+      },
+      "../node_modules/@types/babel__template/index.d.ts": {
+        "version": "3051751533eee92572241b3cef28333212401408c4e7aa21718714b793c0f4ed",
+        "signature": "3051751533eee92572241b3cef28333212401408c4e7aa21718714b793c0f4ed"
+      },
+      "../node_modules/@types/babel__traverse/ts4.1/index.d.ts": {
+        "version": "e60cdc881a28c83e48b0e6f4e335845c7bd83ff9d900a5ed7cc292747580450f",
+        "signature": "e60cdc881a28c83e48b0e6f4e335845c7bd83ff9d900a5ed7cc292747580450f"
+      },
+      "../node_modules/@types/babel__core/index.d.ts": {
+        "version": "6f1d39d26959517da3bd105c552eded4c34702705c64d75b03f54d864b6e41c2",
+        "signature": "6f1d39d26959517da3bd105c552eded4c34702705c64d75b03f54d864b6e41c2"
+      },
+      "../node_modules/@types/graceful-fs/index.d.ts": {
+        "version": "3ebae8c00411116a66fca65b08228ea0cf0b72724701f9b854442100aab55aba",
+        "signature": "3ebae8c00411116a66fca65b08228ea0cf0b72724701f9b854442100aab55aba"
+      },
+      "../node_modules/@types/istanbul-lib-coverage/index.d.ts": {
+        "version": "de18acda71730bac52f4b256ce7511bb56cc21f6f114c59c46782eff2f632857",
+        "signature": "de18acda71730bac52f4b256ce7511bb56cc21f6f114c59c46782eff2f632857"
+      },
+      "../node_modules/@types/istanbul-lib-report/index.d.ts": {
+        "version": "7eb06594824ada538b1d8b48c3925a83e7db792f47a081a62cf3e5c4e23cf0ee",
+        "signature": "7eb06594824ada538b1d8b48c3925a83e7db792f47a081a62cf3e5c4e23cf0ee"
+      },
+      "../node_modules/@types/istanbul-reports/index.d.ts": {
+        "version": "029769d13d9917e3284cb2356ed28a6576e8b07ae6a06ee1e672518adf21a102",
+        "signature": "029769d13d9917e3284cb2356ed28a6576e8b07ae6a06ee1e672518adf21a102"
+      },
+      "../node_modules/jest-diff/build/cleanupsemantic.d.ts": {
+        "version": "e222104af6cb9415238ad358488b74d76eceeff238c1268ec6e85655b05341da",
+        "signature": "e222104af6cb9415238ad358488b74d76eceeff238c1268ec6e85655b05341da"
+      },
+      "../node_modules/jest-diff/build/types.d.ts": {
+        "version": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "signature": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2"
+      },
+      "../node_modules/jest-diff/build/difflines.d.ts": {
+        "version": "eba230221317c985ab1953ccc3edc517f248b37db4fef7875cb2c8d08aff7be7",
+        "signature": "eba230221317c985ab1953ccc3edc517f248b37db4fef7875cb2c8d08aff7be7"
+      },
+      "../node_modules/jest-diff/build/printdiffs.d.ts": {
+        "version": "b83e796810e475da3564c6515bc0ae9577070596a33d89299b7d99f94ecfd921",
+        "signature": "b83e796810e475da3564c6515bc0ae9577070596a33d89299b7d99f94ecfd921"
+      },
+      "../node_modules/jest-diff/build/index.d.ts": {
+        "version": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "signature": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc"
+      },
+      "../node_modules/pretty-format/build/types.d.ts": {
+        "version": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "signature": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09"
+      },
+      "../node_modules/pretty-format/build/index.d.ts": {
+        "version": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "signature": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c"
+      },
+      "../node_modules/@types/jest/index.d.ts": {
+        "version": "46c3ecbaa2492e3ad0a4647302d39f044ae297b81fc82cd21f8399dc8048c414",
+        "signature": "46c3ecbaa2492e3ad0a4647302d39f044ae297b81fc82cd21f8399dc8048c414"
+      },
+      "../node_modules/@types/normalize-package-data/index.d.ts": {
+        "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613"
+      },
       "../node_modules/@types/prettier/index.d.ts": {
         "version": "29651525db5579157e617c77e869af8bfdc1130f5d811c1f759ad35b7bafc8ef",
         "signature": "29651525db5579157e617c77e869af8bfdc1130f5d811c1f759ad35b7bafc8ef"
+      },
+      "../node_modules/@types/stack-utils/index.d.ts": {
+        "version": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49",
+        "signature": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49"
+      },
+      "../node_modules/@types/yargs-parser/index.d.ts": {
+        "version": "3bdd93ec24853e61bfa4c63ebaa425ff3e474156e87a47d90122e1d8cc717c1f",
+        "signature": "3bdd93ec24853e61bfa4c63ebaa425ff3e474156e87a47d90122e1d8cc717c1f"
+      },
+      "../node_modules/@types/yargs/index.d.ts": {
+        "version": "5a2a25feca554a8f289ed62114771b8c63d89f2b58325e2f8b7043e4e0160d11",
+        "signature": "5a2a25feca554a8f289ed62114771b8c63d89f2b58325e2f8b7043e4e0160d11"
       }
     },
     "options": {
@@ -1120,16 +1208,6 @@
         "../node_modules/@types/mysql2/index.d.ts",
         "../src/app/app.config.ts"
       ],
-      "../src/post/post.service.ts": [
-        "../src/app/database/mysql.ts",
-        "../src/auth/auth.interface.ts",
-        "../src/post/post.model.ts",
-        "../src/post/post.provider.ts"
-      ],
-      "../types/express.d.ts": [
-        "../src/auth/auth.interface.ts",
-        "../src/post/post.service.ts"
-      ],
       "../node_modules/@types/express-serve-static-core/index.d.ts": [
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/events.d.ts",
@@ -1156,6 +1234,38 @@
         "../node_modules/@types/serve-static/index.d.ts",
         "../node_modules/@types/express-serve-static-core/index.d.ts",
         "../node_modules/@types/qs/index.d.ts"
+      ],
+      "../node_modules/@types/jsonwebtoken/index.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../src/user/user.service.ts": [
+        "../src/app/database/mysql.ts",
+        "../src/user/user.model.ts"
+      ],
+      "../src/auth/auth.service.ts": [
+        "../node_modules/@types/jsonwebtoken/index.d.ts",
+        "../src/app/app.config.ts",
+        "../src/app/database/mysql.ts"
+      ],
+      "../src/auth/auth.middleware.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/jsonwebtoken/index.d.ts",
+        "../node_modules/@types/bcrypt/index.d.ts",
+        "../src/user/user.service.ts",
+        "../src/app/app.config.ts",
+        "../src/auth/auth.interface.ts",
+        "../src/auth/auth.service.ts"
+      ],
+      "../src/post/post.service.ts": [
+        "../src/app/database/mysql.ts",
+        "../src/auth/auth.interface.ts",
+        "../src/auth/auth.middleware.ts",
+        "../src/post/post.model.ts",
+        "../src/post/post.provider.ts"
+      ],
+      "../types/express.d.ts": [
+        "../src/auth/auth.interface.ts",
+        "../src/post/post.service.ts"
       ],
       "../node_modules/@types/lodash/common/common.d.ts": [
         "../node_modules/@types/lodash/index.d.ts",
@@ -1494,27 +1604,6 @@
         "../src/tag/tag.service.ts",
         "../src/file/file.service.ts"
       ],
-      "../node_modules/@types/jsonwebtoken/index.d.ts": [
-        "../node_modules/@types/node/index.d.ts"
-      ],
-      "../src/user/user.service.ts": [
-        "../src/app/database/mysql.ts",
-        "../src/user/user.model.ts"
-      ],
-      "../src/auth/auth.service.ts": [
-        "../node_modules/@types/jsonwebtoken/index.d.ts",
-        "../src/app/app.config.ts",
-        "../src/app/database/mysql.ts"
-      ],
-      "../src/auth/auth.middleware.ts": [
-        "../node_modules/@types/express/index.d.ts",
-        "../node_modules/@types/jsonwebtoken/index.d.ts",
-        "../node_modules/@types/bcrypt/index.d.ts",
-        "../src/user/user.service.ts",
-        "../src/app/app.config.ts",
-        "../src/auth/auth.interface.ts",
-        "../src/auth/auth.service.ts"
-      ],
       "../src/post/post.middleware.ts": [
         "../node_modules/@types/express/index.d.ts"
       ],
@@ -1666,6 +1755,61 @@
       ],
       "../src/tag/tag.middleware.ts": [
         "../node_modules/@types/express/index.d.ts"
+      ],
+      "../node_modules/@types/babel__generator/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__template/index.d.ts": [
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__traverse/ts4.1/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__core/index.d.ts": [
+        "../node_modules/@types/babel__generator/index.d.ts",
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "../node_modules/@types/babel__template/index.d.ts",
+        "../node_modules/@types/babel__traverse/ts4.1/index.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/graceful-fs/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "../node_modules/@types/istanbul-lib-coverage/index.d.ts"
+      ],
+      "../node_modules/@types/istanbul-reports/index.d.ts": [
+        "../node_modules/@types/istanbul-lib-report/index.d.ts",
+        "../node_modules/@types/istanbul-lib-coverage/index.d.ts"
+      ],
+      "../node_modules/jest-diff/build/difflines.d.ts": [
+        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../node_modules/jest-diff/build/printdiffs.d.ts": [
+        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../node_modules/jest-diff/build/index.d.ts": [
+        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../node_modules/jest-diff/build/difflines.d.ts",
+        "../node_modules/jest-diff/build/printdiffs.d.ts",
+        "../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../node_modules/pretty-format/build/index.d.ts": [
+        "../node_modules/pretty-format/build/types.d.ts"
+      ],
+      "../node_modules/@types/jest/index.d.ts": [
+        "../node_modules/jest-diff/build/index.d.ts",
+        "../node_modules/pretty-format/build/index.d.ts"
+      ],
+      "../node_modules/@types/yargs/index.d.ts": [
+        "../node_modules/@types/yargs-parser/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -1954,17 +2098,6 @@
       "../src/app/database/mysql.ts": [
         "../node_modules/@types/mysql2/index.d.ts"
       ],
-      "../src/post/post.service.ts": [
-        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts",
-        "../src/auth/auth.interface.ts",
-        "../src/post/post.model.ts"
-      ],
-      "../types/express.d.ts": [
-        "../src/auth/auth.interface.ts",
-        "../src/post/post.service.ts"
-      ],
       "../node_modules/@types/express-serve-static-core/index.d.ts": [
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/events.d.ts",
@@ -1991,6 +2124,31 @@
         "../node_modules/@types/serve-static/index.d.ts",
         "../node_modules/@types/express-serve-static-core/index.d.ts",
         "../node_modules/@types/qs/index.d.ts"
+      ],
+      "../node_modules/@types/jsonwebtoken/index.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../src/user/user.service.ts": [
+        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts",
+        "../src/user/user.model.ts"
+      ],
+      "../src/auth/auth.middleware.ts": [
+        "../node_modules/@types/express-serve-static-core/index.d.ts",
+        "../node_modules/@types/qs/index.d.ts",
+        "../node_modules/@types/express/index.d.ts"
+      ],
+      "../src/post/post.service.ts": [
+        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
+        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts",
+        "../src/post/post.model.ts",
+        "../src/auth/auth.interface.ts"
+      ],
+      "../types/express.d.ts": [
+        "../src/auth/auth.interface.ts",
+        "../src/post/post.service.ts"
       ],
       "../node_modules/@types/lodash/common/common.d.ts": [
         "../node_modules/@types/lodash/index.d.ts",
@@ -2325,20 +2483,6 @@
         "../node_modules/@types/qs/index.d.ts",
         "../node_modules/@types/express/index.d.ts"
       ],
-      "../node_modules/@types/jsonwebtoken/index.d.ts": [
-        "../node_modules/@types/node/index.d.ts"
-      ],
-      "../src/user/user.service.ts": [
-        "../node_modules/@types/mysql/lib/protocol/packets/rowdatapacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/okpacket.d.ts",
-        "../node_modules/@types/mysql/lib/protocol/packets/resultsetheader.d.ts",
-        "../src/user/user.model.ts"
-      ],
-      "../src/auth/auth.middleware.ts": [
-        "../node_modules/@types/express-serve-static-core/index.d.ts",
-        "../node_modules/@types/qs/index.d.ts",
-        "../node_modules/@types/express/index.d.ts"
-      ],
       "../src/post/post.middleware.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts",
         "../node_modules/@types/qs/index.d.ts",
@@ -2452,6 +2596,61 @@
       ],
       "../src/app/index.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts"
+      ],
+      "../node_modules/@types/babel__generator/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__template/index.d.ts": [
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__traverse/ts4.1/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__core/index.d.ts": [
+        "../node_modules/@types/babel__generator/index.d.ts",
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "../node_modules/@types/babel__template/index.d.ts",
+        "../node_modules/@types/babel__traverse/ts4.1/index.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/graceful-fs/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "../node_modules/@types/istanbul-lib-coverage/index.d.ts"
+      ],
+      "../node_modules/@types/istanbul-reports/index.d.ts": [
+        "../node_modules/@types/istanbul-lib-report/index.d.ts",
+        "../node_modules/@types/istanbul-lib-coverage/index.d.ts"
+      ],
+      "../node_modules/jest-diff/build/difflines.d.ts": [
+        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../node_modules/jest-diff/build/printdiffs.d.ts": [
+        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../node_modules/jest-diff/build/index.d.ts": [
+        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../node_modules/jest-diff/build/difflines.d.ts",
+        "../node_modules/jest-diff/build/printdiffs.d.ts",
+        "../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../node_modules/pretty-format/build/index.d.ts": [
+        "../node_modules/pretty-format/build/types.d.ts"
+      ],
+      "../node_modules/@types/jest/index.d.ts": [
+        "../node_modules/jest-diff/build/index.d.ts",
+        "../node_modules/pretty-format/build/index.d.ts"
+      ],
+      "../node_modules/@types/yargs/index.d.ts": [
+        "../node_modules/@types/yargs-parser/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -2552,10 +2751,6 @@
       "../node_modules/dotenv/types/index.d.ts",
       "../src/app/app.config.ts",
       "../src/app/database/mysql.ts",
-      "../src/post/post.model.ts",
-      "../src/post/post.provider.ts",
-      "../src/post/post.service.ts",
-      "../types/express.d.ts",
       "../node_modules/@types/range-parser/index.d.ts",
       "../node_modules/@types/qs/index.d.ts",
       "../node_modules/@types/express-serve-static-core/index.d.ts",
@@ -2564,6 +2759,14 @@
       "../node_modules/@types/connect/index.d.ts",
       "../node_modules/@types/body-parser/index.d.ts",
       "../node_modules/@types/express/index.d.ts",
+      "../node_modules/@types/jsonwebtoken/index.d.ts",
+      "../node_modules/@types/bcrypt/index.d.ts",
+      "../src/user/user.model.ts",
+      "../src/user/user.service.ts",
+      "../src/auth/auth.service.ts",
+      "../src/post/post.model.ts",
+      "../src/post/post.provider.ts",
+      "../types/express.d.ts",
       "../node_modules/@types/lodash/common/common.d.ts",
       "../node_modules/@types/lodash/common/array.d.ts",
       "../node_modules/@types/lodash/common/collection.d.ts",
@@ -2616,13 +2819,7 @@
       "../node_modules/jimp/types/ts3.1/index.d.ts",
       "../src/file/file.model.ts",
       "../src/file/file.service.ts",
-      "../node_modules/@types/jsonwebtoken/index.d.ts",
-      "../node_modules/@types/bcrypt/index.d.ts",
-      "../src/user/user.model.ts",
-      "../src/user/user.service.ts",
-      "../src/auth/auth.service.ts",
-      "../src/auth/auth.middleware.ts",
-      "../src/post/post.middleware.ts",
+      "../src/post/post.controller.ts",
       "../src/post/post.router.ts",
       "../src/user/user.controller.ts",
       "../src/user/user.middleware.ts",
@@ -2656,8 +2853,32 @@
       "../src/like/like.middleware.ts",
       "../src/tag/tag.middleware.ts",
       "../src/user/user.test.ts",
+      "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@types/babel__generator/index.d.ts",
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+      "../node_modules/@types/babel__template/index.d.ts",
+      "../node_modules/@types/babel__traverse/ts4.1/index.d.ts",
+      "../node_modules/@types/babel__core/index.d.ts",
+      "../node_modules/@types/graceful-fs/index.d.ts",
+      "../node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "../node_modules/@types/istanbul-lib-report/index.d.ts",
+      "../node_modules/@types/istanbul-reports/index.d.ts",
+      "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+      "../node_modules/jest-diff/build/types.d.ts",
+      "../node_modules/jest-diff/build/difflines.d.ts",
+      "../node_modules/jest-diff/build/printdiffs.d.ts",
+      "../node_modules/jest-diff/build/index.d.ts",
+      "../node_modules/pretty-format/build/types.d.ts",
+      "../node_modules/pretty-format/build/index.d.ts",
+      "../node_modules/@types/jest/index.d.ts",
+      "../node_modules/@types/normalize-package-data/index.d.ts",
       "../node_modules/@types/prettier/index.d.ts",
-      "../src/post/post.controller.ts"
+      "../node_modules/@types/stack-utils/index.d.ts",
+      "../node_modules/@types/yargs-parser/index.d.ts",
+      "../node_modules/@types/yargs/index.d.ts",
+      "../src/auth/auth.middleware.ts",
+      "../src/post/post.service.ts",
+      "../src/post/post.middleware.ts"
     ]
   },
   "version": "3.8.3"

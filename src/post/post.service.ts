@@ -1,5 +1,6 @@
 import { connection } from '../app/database/mysql';
 import { TokenPayload } from '../auth/auth.interface';
+import { currentUser } from '../auth/auth.middleware';
 import { PostModel } from './post.model';
 import { sqlFragment } from './post.provider';
 
@@ -21,7 +22,7 @@ export interface GetPostsOptions {
   sort?: string;
   filter?: GetPostsOptionsFilter;
   pagination?: GetPostsOptionsPagination;
-  currentUser?: TokenPayload;
+  currentUser?:any;
 }
 
 export const getPosts = async (options: GetPostsOptions) => {
@@ -29,7 +30,7 @@ export const getPosts = async (options: GetPostsOptions) => {
     sort,
     filter,
     pagination: { limit, offset },
-    currentUser
+    currentUser,
   } = options;
 
   // SQL 参数
@@ -41,7 +42,7 @@ export const getPosts = async (options: GetPostsOptions) => {
   }
 
   // 当前用户
-  const { id: userId } = currentUser;
+ const { id: userId } = currentUser;
 
   const statement = `
     SELECT
@@ -52,7 +53,7 @@ export const getPosts = async (options: GetPostsOptions) => {
       ${sqlFragment.totalComments},
       ${sqlFragment.file},
       ${sqlFragment.tags},
-      ${sqlFragment.totalLikes},
+      ${sqlFragment.totalLikes}
       (
         SELECT COUNT(user_like_post.postId)
         FROM user_like_post
@@ -216,12 +217,10 @@ export interface GetPostByIdOptions {
 }
 
 export const getPostById = async (
-  postId: number,
-  options: GetPostByIdOptions = {},
+  postId: number
+  
 ) => {
-  const {
-    currentUser: { id: userId },
-  } = options;
+ 
 
   // 准备查询
   const statement = `
@@ -233,14 +232,8 @@ export const getPostById = async (
       ${sqlFragment.totalComments},
       ${sqlFragment.file},
       ${sqlFragment.tags},
-      ${sqlFragment.totalLikes},
-      (
-        SELECT COUNT(user_like_post.postId)
-        FROM user_like_post
-        WHERE
-          user_like_post.postId = post.id
-          && user_like_post.userId = ${userId}
-      ) AS liked
+      ${sqlFragment.totalLikes}
+      
     FROM post
     ${sqlFragment.leftJoinUser}
     ${sqlFragment.leftJoinOneFile}

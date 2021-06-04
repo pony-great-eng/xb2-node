@@ -91,12 +91,14 @@ export const filter = async (
 export const paginate = (itemsPerPage: number) => {
   return async (request: Request, response: Response, next: NextFunction) => {
     // 当前页码
+    
     const { page = 1 } = request.query;
 
     // 每页内容数量
     const limit = itemsPerPage || 30;
 
     // 计算出偏移量
+   
     const offset = limit * (parseInt(`$page`) - 1);
 
     // 设置请求中的分页

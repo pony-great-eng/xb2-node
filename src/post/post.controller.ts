@@ -31,7 +31,7 @@ export const index = async (
     response.header('X-Total-Count', totalCount);
   } catch (error) {
     next(error);
-  }
+  };
 
   try {
     const posts = await getPosts({
@@ -200,10 +200,7 @@ export const show = async (
 
   // 调取内容
   try {
-    const post = await getPostById(parseInt(postId, 10), {
-     
-      currentUser: request.user,
-    });
+    const post = await getPostById(parseInt(postId, 10));
 
     //做出响应
     response.send(post);

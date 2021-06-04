@@ -44,7 +44,7 @@ router.delete(
  router.get(
   '/comments',
   filter,
-  paginate(COMMENTS_PER_PAGE),
+  // paginate(COMMENTS_PER_PAGE),
   commentController.index,
 );
 

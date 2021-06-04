@@ -47,7 +47,7 @@ export const fileProcessor = async (
   request: Request,
   response: Response,
   next: NextFunction,
-) => {
+ ) => {
   //文件路径
   const {path} =request.file;
 
@@ -60,8 +60,8 @@ export const fileProcessor = async (
     return next(error);
   }
 
-//准备文件数据
-const {imageSize, tags} =image['_exif'];
+  //准备文件数据
+  const {imageSize, tags} =image['_exif'];
 
   //在请求里添加文件数据
   request.fileMetaData={
