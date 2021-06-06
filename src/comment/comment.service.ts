@@ -84,17 +84,17 @@ export const deleteComment = async (commentId: number) => {
  */
  interface GetCommentsOptions {
    filter?:GetPostsOptionsFilter;
-   //pagination?:GetPostsOptionsPagination;
+   pagination?:GetPostsOptionsPagination;
  }
 
 export const getComments = async (options:GetCommentsOptions) => {
   //解构选择
-   const {filter
-  // pagination:{limit,offset},
+  const {filter,
+  pagination:{limit,offset},
   }=options;
 
   // SQL 参数
-  let params: Array<any> = [];
+  let params: Array<any> = [limit,offset];
 
   //设置sql参数
   if (filter.param) {
@@ -119,7 +119,8 @@ export const getComments = async (options:GetCommentsOptions) => {
       comment.id
     ORDER BY
       comment.id DESC
-   
+    LIMIT ?
+    OFFSET ?  
   `;
 
   // 执行查询
@@ -133,38 +134,38 @@ export const getComments = async (options:GetCommentsOptions) => {
 /**
  * 统计评论数量
  */
-//  export const getCommentsTotalCount = async (options: GetCommentsOptions) => {
-//   // 解构选项
-//   const { filter } = options;
+ export const getCommentsTotalCount = async (options: GetCommentsOptions) => {
+  // 解构选项
+  const { filter } = options;
 
-//   // SQL 参数
-//   let params: Array<any> = [];
+  // SQL 参数
+  let params: Array<any> = [];
 
-//   // 设置 SQL 参数
-//   if (filter.param) {
-//     params = [filter.param, ...params];
-//   }
+  // 设置 SQL 参数
+  if (filter.param) {
+    params = [filter.param, ...params];
+  }
 
-//   // 准备查询
-//   const statement = `
-//     SELECT
-//       COUNT(
-//         DISTINCT comment.id
-//       ) as total
-//     FROM
-//       comment
-//     ${sqlFragment.leftJoinUser}
-//     ${sqlFragment.leftJoinPost}
-//     WHERE
-//       ${filter.sql}
-//   `;
+  // 准备查询
+  const statement = `
+    SELECT
+      COUNT(
+        DISTINCT comment.id
+      ) as total
+    FROM
+      comment
+    ${sqlFragment.leftJoinUser}
+    ${sqlFragment.leftJoinPost}
+    WHERE
+      ${filter.sql}
+  `;
 
-//   // 执行查询
-//   const [data] = await connection.promise().query(statement, params);
+  // 执行查询
+  const [data] = await connection.promise().query(statement, params);
 
-//   // 提供结果
-//   return data[0].total;
-// };
+  // 提供结果
+  return data[0].total;
+};
 
 
 /**

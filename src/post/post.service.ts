@@ -53,7 +53,7 @@ export const getPosts = async (options: GetPostsOptions) => {
       ${sqlFragment.totalComments},
       ${sqlFragment.file},
       ${sqlFragment.tags},
-      ${sqlFragment.totalLikes}
+      ${sqlFragment.totalLikes},
       (
         SELECT COUNT(user_like_post.postId)
         FROM user_like_post

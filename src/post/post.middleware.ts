@@ -99,7 +99,7 @@ export const paginate = (itemsPerPage: number) => {
 
     // 计算出偏移量
    
-    const offset = limit * (parseInt(`$page`) - 1);
+    const offset = limit * (parseInt(`${page}`,10) - 1);
 
     // 设置请求中的分页
     request.pagination = { limit, offset };
