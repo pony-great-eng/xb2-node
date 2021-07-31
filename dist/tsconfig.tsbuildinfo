@@ -781,12 +781,16 @@
         "version": "b0d1b028ed3dc6216449105eca628a81c0aa04612cc20a0c55137bde711dcc81",
         "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
       },
+      "../src/app/app.router.ts": {
+        "version": "c9462a764ec0450f690ec663b78c665d95c6b458abd690a59e16ff5bf85ffd38",
+        "signature": "0747134fc57c8e4a12d6144952ae1f47f54848f1ca110e997bd81ec1cc7b76e6"
+      },
       "../src/app/app.middleware.ts": {
         "version": "eba861f146cbbe47fd8fce8916792e96d3d4da765c1078287f39fc4e992fb316",
         "signature": "f89af0738b9101b999ff997089a699035c6c1f603521d22a437d586e8c701e82"
       },
       "../src/app/index.ts": {
-        "version": "b56015805f47c8d7505c0ef7761d424e0f0a46a8c386662f7f05cf0a2432d185",
+        "version": "319d13f8e6230f31e8ecf137ad202677e2e87cf5fe810f55221dbba4d904227a",
         "signature": "629a4ade941bd431c195407a5afd3602c6461fdcc0f65735b7e4a68f8d5d3d51"
       },
       "../src/main.ts": {
@@ -796,6 +800,22 @@
       "../src/playground.ts": {
         "version": "a8d29a5f4739a0cc2bf8fe941190ef1e3e5026cafc96f9106749fb15673ae435",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "../node_modules/@types/cookiejar/index.d.ts": {
+        "version": "8d48b8f8a377ade8dd1f000625bc276eea067f2529cc9cafdf082d17142107d6",
+        "signature": "8d48b8f8a377ade8dd1f000625bc276eea067f2529cc9cafdf082d17142107d6"
+      },
+      "../node_modules/@types/superagent/index.d.ts": {
+        "version": "52ad710c9ed579f32f3311c90fda2f23b7e833053eb32c2ab4938ab16ef00a27",
+        "signature": "52ad710c9ed579f32f3311c90fda2f23b7e833053eb32c2ab4938ab16ef00a27"
+      },
+      "../node_modules/@types/supertest/index.d.ts": {
+        "version": "570b7eeb7fbe76c13a700d4c99a71d4307e17178c2c7f3bcc3c4d5115be4be6d",
+        "signature": "570b7eeb7fbe76c13a700d4c99a71d4307e17178c2c7f3bcc3c4d5115be4be6d"
+      },
+      "../src/app/app.test.ts": {
+        "version": "b12a3bc39a29e9cb9f6216a187c185b473748b89b4011b1adf3e2b13c386c511",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "../src/like/like.middleware.ts": {
         "version": "e7b8f28ed58bd1d2a6395e6daea1d15ae712c7c22fe229b41ae8ee8f14db1aee",
@@ -810,28 +830,28 @@
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
-        "version": "b668b7fb7c52a05fb9233a27ba5099a73cd8e157b037d67399336635495ab483",
-        "signature": "b668b7fb7c52a05fb9233a27ba5099a73cd8e157b037d67399336635495ab483"
+        "version": "7bfbdf19a5d95af4976a0c32188b836f66bd190cd94643ee06321ef0024d0deb",
+        "signature": "7bfbdf19a5d95af4976a0c32188b836f66bd190cd94643ee06321ef0024d0deb"
       },
       "../node_modules/@types/babel__generator/index.d.ts": {
-        "version": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e",
-        "signature": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e"
+        "version": "8dfed5c91ad36e69e6da6b7e49be929d4e19666db2b651aa839c485170a2902c",
+        "signature": "8dfed5c91ad36e69e6da6b7e49be929d4e19666db2b651aa839c485170a2902c"
       },
       "../node_modules/@babel/parser/typings/babel-parser.d.ts": {
-        "version": "069733dc220affbe58d9c1d1a93af3707bc515aaed761701d8741b57da4cb964",
-        "signature": "069733dc220affbe58d9c1d1a93af3707bc515aaed761701d8741b57da4cb964"
+        "version": "9ed0773022bff64bccb1f4dc772d584c4bfba68bb7f6a82cd17334c925954b96",
+        "signature": "9ed0773022bff64bccb1f4dc772d584c4bfba68bb7f6a82cd17334c925954b96"
       },
       "../node_modules/@types/babel__template/index.d.ts": {
-        "version": "3051751533eee92572241b3cef28333212401408c4e7aa21718714b793c0f4ed",
-        "signature": "3051751533eee92572241b3cef28333212401408c4e7aa21718714b793c0f4ed"
+        "version": "93de1c6dab503f053efe8d304cb522bb3a89feab8c98f307a674a4fae04773e9",
+        "signature": "93de1c6dab503f053efe8d304cb522bb3a89feab8c98f307a674a4fae04773e9"
       },
       "../node_modules/@types/babel__traverse/ts4.1/index.d.ts": {
-        "version": "e60cdc881a28c83e48b0e6f4e335845c7bd83ff9d900a5ed7cc292747580450f",
-        "signature": "e60cdc881a28c83e48b0e6f4e335845c7bd83ff9d900a5ed7cc292747580450f"
+        "version": "5158403c4f6a1e0e86a5e43e9aaad3571ce270e02fcdd750b5b0ea8dc636dbe4",
+        "signature": "5158403c4f6a1e0e86a5e43e9aaad3571ce270e02fcdd750b5b0ea8dc636dbe4"
       },
       "../node_modules/@types/babel__core/index.d.ts": {
-        "version": "6f1d39d26959517da3bd105c552eded4c34702705c64d75b03f54d864b6e41c2",
-        "signature": "6f1d39d26959517da3bd105c552eded4c34702705c64d75b03f54d864b6e41c2"
+        "version": "71c56bdaa82d7ce75a72d3c06c04fe10becec09bd9c4ef21776a2a055d3f428e",
+        "signature": "71c56bdaa82d7ce75a72d3c06c04fe10becec09bd9c4ef21776a2a055d3f428e"
       },
       "../node_modules/@types/graceful-fs/index.d.ts": {
         "version": "3ebae8c00411116a66fca65b08228ea0cf0b72724701f9b854442100aab55aba",
@@ -882,8 +902,8 @@
         "signature": "46c3ecbaa2492e3ad0a4647302d39f044ae297b81fc82cd21f8399dc8048c414"
       },
       "../node_modules/@types/normalize-package-data/index.d.ts": {
-        "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
-        "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613"
+        "version": "6fa0008bf91a4cc9c8963bace4bba0bd6865cbfa29c3e3ccc461155660fb113a",
+        "signature": "6fa0008bf91a4cc9c8963bace4bba0bd6865cbfa29c3e3ccc461155660fb113a"
       },
       "../node_modules/@types/prettier/index.d.ts": {
         "version": "29651525db5579157e617c77e869af8bfdc1130f5d811c1f759ad35b7bafc8ef",
@@ -1728,6 +1748,9 @@
         "../src/like/like.controller.ts",
         "../src/auth/auth.middleware.ts"
       ],
+      "../src/app/app.router.ts": [
+        "../node_modules/@types/express/index.d.ts"
+      ],
       "../src/app/app.middleware.ts": [
         "../node_modules/@types/express/index.d.ts"
       ],
@@ -1741,12 +1764,29 @@
         "../src/comment/comment.router.ts",
         "../src/avatar/avatar.router.ts",
         "../src/like/like.router.ts",
+        "../src/app/app.router.ts",
         "../src/app/app.middleware.ts",
         "../src/auth/auth.middleware.ts"
       ],
       "../src/main.ts": [
         "../src/app/index.ts",
         "../src/app/app.config.ts",
+        "../src/app/database/mysql.ts"
+      ],
+      "../node_modules/@types/superagent/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/cookiejar/index.d.ts",
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@types/supertest/index.d.ts": [
+        "../node_modules/@types/superagent/index.d.ts"
+      ],
+      "../src/app/app.test.ts": [
+        "../node_modules/@types/body-parser/index.d.ts",
+        "../node_modules/@types/supertest/index.d.ts",
+        "../src/app/index.ts",
         "../src/app/database/mysql.ts"
       ],
       "../src/like/like.middleware.ts": [
@@ -2588,6 +2628,9 @@
       "../src/like/like.router.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts"
       ],
+      "../src/app/app.router.ts": [
+        "../node_modules/@types/express-serve-static-core/index.d.ts"
+      ],
       "../src/app/app.middleware.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts",
         "../node_modules/@types/qs/index.d.ts",
@@ -2595,6 +2638,16 @@
       ],
       "../src/app/index.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts"
+      ],
+      "../node_modules/@types/superagent/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/cookiejar/index.d.ts",
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@types/supertest/index.d.ts": [
+        "../node_modules/@types/superagent/index.d.ts"
       ],
       "../node_modules/@types/babel__generator/index.d.ts": [
         "../node_modules/@babel/types/lib/index.d.ts"
@@ -2821,6 +2874,7 @@
       "../src/user/user.service.ts",
       "../src/auth/auth.service.ts",
       "../src/auth/auth.middleware.ts",
+      "../src/post/post.middleware.ts",
       "../src/post/post.router.ts",
       "../src/user/user.controller.ts",
       "../src/user/user.middleware.ts",
@@ -2847,10 +2901,14 @@
       "../src/like/like.service.ts",
       "../src/like/like.controller.ts",
       "../src/like/like.router.ts",
+      "../src/app/app.router.ts",
       "../src/app/app.middleware.ts",
       "../src/app/index.ts",
       "../src/main.ts",
       "../src/playground.ts",
+      "../node_modules/@types/cookiejar/index.d.ts",
+      "../node_modules/@types/superagent/index.d.ts",
+      "../node_modules/@types/supertest/index.d.ts",
       "../src/like/like.middleware.ts",
       "../src/tag/tag.middleware.ts",
       "../src/user/user.test.ts",
@@ -2877,7 +2935,7 @@
       "../node_modules/@types/stack-utils/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/post/post.middleware.ts"
+      "../src/app/app.test.ts"
     ]
   },
   "version": "3.8.3"
