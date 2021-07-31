@@ -21,7 +21,7 @@ export interface GetPostsOptions {
   sort?: string;
   filter?: GetPostsOptionsFilter;
   pagination?: GetPostsOptionsPagination;
-  currentUser?:any;
+  currentUser?:TokenPayload;
 }
 
 export const getPosts = async (options: GetPostsOptions) => {
@@ -62,7 +62,7 @@ export const getPosts = async (options: GetPostsOptions) => {
       ) AS liked
     FROM post
     ${sqlFragment.leftJoinUser}
-    ${sqlFragment.innerJoinOneFile}
+    ${sqlFragment.leftJoinOneFile}
     ${sqlFragment.leftJoinTag}
     ${filter.name == 'userLiked' ? sqlFragment.innerJoinUserLikePost : ''}
     WHERE ${filter.sql}
@@ -195,7 +195,7 @@ export const getPostsTotalCount = async (options: GetPostsOptions) => {
       COUNT(DISTINCT post.id) AS total
     FROM post
     ${sqlFragment.leftJoinUser}
-    ${sqlFragment.innerJoinFile}
+    ${sqlFragment.leftJoinOneFile}
     ${sqlFragment.leftJoinTag}
     ${filter.name == 'userLiked' ? sqlFragment.innerJoinUserLikePost : ''}
     WHERE ${filter.sql}

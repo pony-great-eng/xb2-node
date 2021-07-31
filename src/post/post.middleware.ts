@@ -59,7 +59,7 @@ export const filter = async (
     request.filter = {
       name: 'tagName',
       sql: 'tag.name = ?',
-      param: `$tag`,
+      param: tag.toString(),
     };
   }
 
@@ -68,7 +68,7 @@ export const filter = async (
     request.filter = {
       name: 'userPublished',
       sql: 'user.id = ?',
-      param: `$user`,
+      param: user.toString(),
     };
   }
 
@@ -77,7 +77,7 @@ export const filter = async (
     request.filter = {
       name: 'userLiked',
       sql: 'user_like_post.userId = ?',
-      param: `$user`,
+      param: user.toString(),
     };
   }
 
